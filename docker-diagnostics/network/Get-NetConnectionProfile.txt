@@ -1,0 +1,20 @@
+
+
+NetworkCategory          : Public
+DomainAuthenticationKind : None
+IPv4Connectivity         : Internet
+IPv6Connectivity         : Internet
+Caption                  : 
+Description              : 
+ElementName              : 
+InstanceID               : {328D7006-C7D2-4696-83B1-F35E32A2EB5B}
+InterfaceAlias           : Ethernet
+InterfaceIndex           : 8
+Name                     : Rede 2
+PSComputerName           : 
+CimClass                 : root/StandardCimv2:MSFT_NetConnectionProfile
+CimInstanceProperties    : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties      : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+

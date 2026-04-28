@@ -1,0 +1,9 @@
+com\portfolio\notifications\notification\NotificationService.class
+com\portfolio\notifications\config\RedisConfig.class
+com\portfolio\notifications\notification\NotificationWebSocketHandler.class
+com\portfolio\notifications\notification\NotificationController.class
+com\portfolio\notifications\NotificationsApplication.class
+com\portfolio\notifications\config\CorsConfig.class
+com\portfolio\notifications\notification\NotificationMessage.class
+com\portfolio\notifications\config\WebSocketConfig.class
+com\portfolio\notifications\notification\CreateNotificationRequest.class

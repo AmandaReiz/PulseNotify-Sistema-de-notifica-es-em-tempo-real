@@ -1,0 +1,8 @@
+Select-Object : Falta um argumento para o parâmetro 'Property'. Especifique um parâmetro do tipo 'System.Object[]' e 
+tente novamente.
+No linha:1 caractere:96
++ ... ectionProfile | Select-Object -ExcludeProperty Cim* -Property | Conve ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.SelectObjectCommand
+ 

@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ Get-CimInstance Win32_Processor | Select-Object -ExcludeProperty Cim* -Property * | ConvertTo-json }

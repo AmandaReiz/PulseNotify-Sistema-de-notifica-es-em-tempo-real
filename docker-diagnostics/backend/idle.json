@@ -1,0 +1,10 @@
+{
+  "busyReason": [
+    "timed activities: map[/idle/make-busy:18178233000 Go-http-client/1.1 /grpc:80611603900]"
+  ],
+  "timedActivities": {
+    "/idle/make-busy": 18178233000,
+    "Go-http-client/1.1 /grpc": 80611603900
+  },
+  "vmRunning": true
+}

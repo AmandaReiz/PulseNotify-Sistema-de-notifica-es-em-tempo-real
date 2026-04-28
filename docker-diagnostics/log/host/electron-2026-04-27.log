@@ -1,0 +1,2387 @@
+2026-04-27T12:26:16.790Z info 	[STARTUP] Launched with: {
+  params: { 'analytics-enabled': true, reason: 'open-tray', name: 'dashboard' },
+  pid: 1640,
+  ppid: 7872,
+  NODE_ENV: 'production',
+  E2E: false,
+  E2E_CONTEXT: undefined,
+  PINATA_LOGS_ADDITIONAL_PATH: undefined,
+  DEVHOME: undefined,
+  isPackaged: true,
+  appVersion: '4.66.1'
+}
+2026-04-27T12:26:16.975Z info 	[STARTUP] Checking backend is running
+2026-04-27T12:26:17.196Z info 	[NETWORK] Creating V1 engine client
+2026-04-27T12:26:17.275Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T12:26:17.277Z info 	[SSE] Connecting to backend:/notify/messagebox/events
+2026-04-27T12:26:17.278Z info 	[SSE] Connecting to backend:/notify/notifications
+2026-04-27T12:26:17.278Z info 	[THEME] Electron nativeTheme: dark
+2026-04-27T12:26:17.278Z info 	[THEME] Fetching Windows theme from registry
+2026-04-27T12:26:17.327Z info 	[SSE] Connecting to backend:/wasm/events
+2026-04-27T12:26:17.328Z info 	[SSE] Connecting to backend:/features/events
+2026-04-27T12:26:17.328Z info 	[SSE] Connecting to backend:/update/events
+2026-04-27T12:26:17.329Z info 	[SSE] Connecting to backend:/mutagen/file-shares/stream
+2026-04-27T12:26:17.329Z info 	[SSE] Connecting to backend:/license/events
+2026-04-27T12:26:17.330Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T12:26:17.331Z info 	[SSE] Connecting to backend:/versions/events
+2026-04-27T12:26:17.331Z info 	[SSE] Connecting to backend:/engine/events
+2026-04-27T12:26:17.332Z info 	[SSE] Connecting to backend:/install/events
+2026-04-27T12:26:17.332Z info 	[SSE] Connecting to backend:/kubernetes/events
+2026-04-27T12:26:17.332Z info 	[SSE] Connecting to backend:/pause/events
+2026-04-27T12:26:17.333Z info 	[SSE] Connecting to backend:/clicontext/events
+2026-04-27T12:26:17.376Z info 	application has just finished initializing
+2026-04-27T12:26:17.376Z info 	[WEB-CONTENT] Registering app://
+2026-04-27T12:26:17.383Z info 	[TRAY] Creating tray menu
+2026-04-27T12:26:17.833Z info 	[WINDOW] Open app://dd/dashboard { windowOptions: { minHeight: 600, minWidth: 940 } }
+2026-04-27T12:26:17.991Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:26:17.991Z info 	Host config environment is prod
+2026-04-27T12:26:17.992Z info 	[BUGSNAG] Setting analytics enabled: true
+2026-04-27T12:26:17.993Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:26:18.121Z error 	[HTTP] GET /exp/vDD4.40/models: Service Unavailable ("Docker Desktop is unable to start\n\n\n")
+2026-04-27T12:26:18.142Z error 	Failed to fetch Docker AI models Object [Error] {
+  name: 'Error',
+  message: '"Docker Desktop is unable to start\\n\\n\\n"',
+  stack: 'Error: "Docker Desktop is unable to start\\n\\n\\n"\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20730\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20685',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Request failed with status code 503',
+    stack: 'Error: Request failed with status code 503\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1213514)\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1296335)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:95831)\n' +
+      '    at IncomingMessage.emit (node:events:531:35)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1698:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)',
+    config: {
+      transitional: [Object],
+      adapter: [Function (anonymous)],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      httpAgent: [Agent],
+      proxy: false,
+      insecureHTTPParser: true,
+      url: '/exp/vDD4.40/models',
+      method: 'get',
+      responseType: 'json',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /exp/vDD4.40/models HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'User-Agent: Docker-Desktop/4.66.1 (Windows; x64; GUI)\r\n' +
+        'Desktop-Session-Id: e38a0a56\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: true,
+      joinDuplicateHeaders: undefined,
+      path: '/exp/vDD4.40/models',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 503,
+      statusText: 'Service Unavailable',
+      headers: [Object],
+      config: [Object],
+      request: [ClientRequest],
+      data: 'Docker Desktop is unable to start\n\n\n'
+    },
+    isAxiosError: true,
+    toJSON: [Function (anonymous)]
+  },
+  response: {
+    data: 'Docker Desktop is unable to start\n\n\n',
+    headers: {
+      'content-type': 'text/plain; charset=utf-8',
+      'x-content-type-options': 'nosniff',
+      date: 'Mon, 27 Apr 2026 12:26:18 GMT',
+      'content-length': '36'
+    },
+    status: 503,
+    statusText: 'Service Unavailable'
+  },
+  aborted: false,
+  nodeErrorCode: undefined,
+  __isRequestFailedError: true,
+  status: 503,
+  data: 'Docker Desktop is unable to start\n\n\n'
+}
+2026-04-27T12:26:18.205Z error 	[HTTP] GET /exp/vDD4.40/models: Service Unavailable ("Docker Desktop is unable to start\n\n\n")
+2026-04-27T12:26:18.214Z error 	Failed to fetch Docker AI models Object [Error] {
+  name: 'Error',
+  message: '"Docker Desktop is unable to start\\n\\n\\n"',
+  stack: 'Error: "Docker Desktop is unable to start\\n\\n\\n"\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20730\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20685',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Request failed with status code 503',
+    stack: 'Error: Request failed with status code 503\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1213514)\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1296335)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:95831)\n' +
+      '    at IncomingMessage.emit (node:events:531:35)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1698:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)',
+    config: {
+      transitional: [Object],
+      adapter: [Function (anonymous)],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      httpAgent: [Agent],
+      proxy: false,
+      insecureHTTPParser: true,
+      url: '/exp/vDD4.40/models',
+      method: 'get',
+      responseType: 'json',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /exp/vDD4.40/models HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'User-Agent: Docker-Desktop/4.66.1 (Windows; x64; GUI)\r\n' +
+        'Desktop-Session-Id: e38a0a56\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: true,
+      joinDuplicateHeaders: undefined,
+      path: '/exp/vDD4.40/models',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 503,
+      statusText: 'Service Unavailable',
+      headers: [Object],
+      config: [Object],
+      request: [ClientRequest],
+      data: 'Docker Desktop is unable to start\n\n\n'
+    },
+    isAxiosError: true,
+    toJSON: [Function (anonymous)]
+  },
+  response: {
+    data: 'Docker Desktop is unable to start\n\n\n',
+    headers: {
+      'content-type': 'text/plain; charset=utf-8',
+      'x-content-type-options': 'nosniff',
+      date: 'Mon, 27 Apr 2026 12:26:18 GMT',
+      'content-length': '36'
+    },
+    status: 503,
+    statusText: 'Service Unavailable'
+  },
+  aborted: false,
+  nodeErrorCode: undefined,
+  __isRequestFailedError: true,
+  status: 503,
+  data: 'Docker Desktop is unable to start\n\n\n'
+}
+2026-04-27T12:26:18.244Z info 	[WEB-CONTENT] Serving page HTML (67 feature flags)
+2026-04-27T12:26:18.326Z error 	[THEME] Theme fetch is slow; emitting failed action
+2026-04-27T12:26:18.327Z info 	[TRAY] Determined initial tray icon
+2026-04-27T12:26:19.140Z error 	[HTTP] GET /exp/vDD4.40/models: Service Unavailable ("Docker Desktop is unable to start\n\n\n")
+2026-04-27T12:26:19.149Z error 	Failed to fetch Docker AI models Object [Error] {
+  name: 'Error',
+  message: '"Docker Desktop is unable to start\\n\\n\\n"',
+  stack: 'Error: "Docker Desktop is unable to start\\n\\n\\n"\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20730\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20685',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Request failed with status code 503',
+    stack: 'Error: Request failed with status code 503\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1213514)\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1296335)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:95831)\n' +
+      '    at IncomingMessage.emit (node:events:531:35)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1698:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)',
+    config: {
+      transitional: [Object],
+      adapter: [Function (anonymous)],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      httpAgent: [Agent],
+      proxy: false,
+      insecureHTTPParser: true,
+      url: '/exp/vDD4.40/models',
+      method: 'get',
+      responseType: 'json',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /exp/vDD4.40/models HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'User-Agent: Docker-Desktop/4.66.1 (Windows; x64; GUI)\r\n' +
+        'Desktop-Session-Id: e38a0a56\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: true,
+      joinDuplicateHeaders: undefined,
+      path: '/exp/vDD4.40/models',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 503,
+      statusText: 'Service Unavailable',
+      headers: [Object],
+      config: [Object],
+      request: [ClientRequest],
+      data: 'Docker Desktop is unable to start\n\n\n'
+    },
+    isAxiosError: true,
+    toJSON: [Function (anonymous)]
+  },
+  response: {
+    data: 'Docker Desktop is unable to start\n\n\n',
+    headers: {
+      'content-type': 'text/plain; charset=utf-8',
+      'x-content-type-options': 'nosniff',
+      date: 'Mon, 27 Apr 2026 12:26:19 GMT',
+      'content-length': '36'
+    },
+    status: 503,
+    statusText: 'Service Unavailable'
+  },
+  aborted: false,
+  nodeErrorCode: undefined,
+  __isRequestFailedError: true,
+  status: 503,
+  data: 'Docker Desktop is unable to start\n\n\n'
+}
+2026-04-27T12:26:19.159Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T12:26:19.159Z info 	[REDUX] Added store replica 1
+2026-04-27T12:26:19.162Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T12:26:19.165Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T12:26:19.166Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T12:26:19.166Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:26:19.167Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T12:26:19.505Z info 	[THEME] Got Windows theme from registry: dark
+2026-04-27T12:26:19.565Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T12:26:19.570Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:26:19.572Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T12:26:19.579Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T12:26:19.580Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T12:26:25.323Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:26:26.459Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:26:27.360Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:27:45.541Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T12:27:45.541Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/user/orgs?page_size=100 to dd://hub/v2/user/orgs?page_size=100
+2026-04-27T12:27:45.753Z error 	[HTTP] GET https://hub.docker.com/v2/user/orgs?page_size=100: Unauthorized ({"message":"unauthorized","errinfo":{}})
+2026-04-27T12:27:45.753Z info 	[HubApiClient] 401 response, requesting new access token
+2026-04-27T12:27:46.444Z info 	[HubApiClient] Hub access token updated
+2026-04-27T12:28:26.809Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 127237ms, emitted 1 times
+2026-04-27T12:28:26.810Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 127245ms, emitted 1 times
+2026-04-27T12:28:26.909Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T12:28:26.915Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T12:28:26.917Z info 	[IPC] getCloudAccounts
+2026-04-27T12:28:26.919Z info 	[IPC] getCloudAccounts
+2026-04-27T12:28:31.356Z info 	[IPC] build.buildBackendGetBuildersStream: Started streaming ([{}])
+2026-04-27T12:28:31.356Z info 	[SSE] Connecting to buildBackend:/builders/stream
+2026-04-27T12:28:31.357Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/cloud-builds/accounts/amandar4is to dd://hub/v2/cloud-builds/accounts/amandar4is
+2026-04-27T12:28:31.588Z error 	[HTTP] GET https://hub.docker.com/v2/cloud-builds/accounts/amandar4is: Not Found ({"message":"builder account not found","errinfo":{}})
+2026-04-27T12:35:38.269Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/user/orgs?page_size=100 to dd://hub/v2/user/orgs?page_size=100
+2026-04-27T12:35:38.270Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/cloud-builds/accounts/amandar4is to dd://hub/v2/cloud-builds/accounts/amandar4is
+2026-04-27T12:35:38.580Z error 	[HTTP] GET https://hub.docker.com/v2/cloud-builds/accounts/amandar4is: Not Found ({"message":"builder account not found","errinfo":{}})
+2026-04-27T12:35:45.033Z info 	[SSE] Disconnecting from buildBackend:/builders/stream
+2026-04-27T12:35:45.033Z info 	[IPC] build.buildBackendGetBuildersStream: Unsubscribed after 433677ms, emitted 2 times
+2026-04-27T12:35:45.460Z info 	[IPC] getCloudAccounts
+2026-04-27T12:35:55.362Z info 	[IPC] build.buildBackendGetBuildersStream: Started streaming ([{}])
+2026-04-27T12:35:55.363Z info 	[SSE] Connecting to buildBackend:/builders/stream
+2026-04-27T12:35:55.363Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/cloud-builds/accounts/amandar4is to dd://hub/v2/cloud-builds/accounts/amandar4is
+2026-04-27T12:35:55.533Z error 	[HTTP] GET https://hub.docker.com/v2/cloud-builds/accounts/amandar4is: Not Found ({"message":"builder account not found","errinfo":{}})
+2026-04-27T12:35:56.032Z info 	[SSE] Disconnecting from buildBackend:/builders/stream
+2026-04-27T12:35:56.033Z info 	[IPC] build.buildBackendGetBuildersStream: Unsubscribed after 670ms, emitted 0 times
+2026-04-27T12:35:56.041Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/repositories/kindest/node/tags?page_size=50&os=linux to dd://hub/v2/repositories/kindest/node/tags?page_size=50&os=linux
+2026-04-27T12:36:01.660Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:36:05.454Z info 	[IPC] getCloudAccounts
+2026-04-27T12:42:07.906Z info 	[IPC] getCloudAccounts
+2026-04-27T12:43:49.684Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/user/orgs?page_size=100 to dd://hub/v2/user/orgs?page_size=100
+2026-04-27T12:45:30.420Z info 	[IPC] terminal.getTerminals: Unsubscribed after 1151253ms, emitted 1 times
+2026-04-27T12:45:30.420Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 1023505ms, emitted 1 times
+2026-04-27T12:45:30.420Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 1023511ms, emitted 1 times
+2026-04-27T12:45:30.420Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 1151255ms, emitted 0 times
+2026-04-27T12:45:30.421Z info 	[REDUX] Removed store replica 1
+2026-04-27T12:45:30.423Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T12:45:30.424Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 1151265ms, emitted 168 times
+2026-04-27T12:45:30.425Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T12:45:30.425Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 1150846ms, emitted 1 times
+2026-04-27T12:45:30.425Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T12:45:30.425Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 1151259ms, emitted 2 times
+2026-04-27T12:45:52.136Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T12:45:52.137Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T12:45:58.103Z info 	[STARTUP] Launched with: {
+  params: { 'analytics-enabled': true, reason: 'open-tray', name: 'dashboard' },
+  pid: 8320,
+  ppid: 7488,
+  NODE_ENV: 'production',
+  E2E: false,
+  E2E_CONTEXT: undefined,
+  PINATA_LOGS_ADDITIONAL_PATH: undefined,
+  DEVHOME: undefined,
+  isPackaged: true,
+  appVersion: '4.66.1'
+}
+2026-04-27T12:45:58.195Z info 	[STARTUP] Checking backend is running
+2026-04-27T12:45:58.281Z info 	[NETWORK] Creating V1 engine client
+2026-04-27T12:45:58.312Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T12:45:58.314Z info 	[SSE] Connecting to backend:/notify/messagebox/events
+2026-04-27T12:45:58.315Z info 	[SSE] Connecting to backend:/notify/notifications
+2026-04-27T12:45:58.315Z info 	[THEME] Electron nativeTheme: dark
+2026-04-27T12:45:58.315Z info 	[THEME] Fetching Windows theme from registry
+2026-04-27T12:45:58.342Z info 	[SSE] Connecting to backend:/wasm/events
+2026-04-27T12:45:58.343Z info 	[SSE] Connecting to backend:/features/events
+2026-04-27T12:45:58.344Z info 	[SSE] Connecting to backend:/update/events
+2026-04-27T12:45:58.344Z info 	[SSE] Connecting to backend:/mutagen/file-shares/stream
+2026-04-27T12:45:58.345Z info 	[SSE] Connecting to backend:/license/events
+2026-04-27T12:45:58.346Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T12:45:58.346Z info 	[SSE] Connecting to backend:/versions/events
+2026-04-27T12:45:58.347Z info 	[SSE] Connecting to backend:/engine/events
+2026-04-27T12:45:58.347Z info 	[SSE] Connecting to backend:/install/events
+2026-04-27T12:45:58.348Z info 	[SSE] Connecting to backend:/kubernetes/events
+2026-04-27T12:45:58.348Z info 	[SSE] Connecting to backend:/pause/events
+2026-04-27T12:45:58.349Z info 	[SSE] Connecting to backend:/clicontext/events
+2026-04-27T12:45:58.390Z info 	application has just finished initializing
+2026-04-27T12:45:58.391Z info 	[WEB-CONTENT] Registering app://
+2026-04-27T12:45:58.398Z info 	[TRAY] Creating tray menu
+2026-04-27T12:45:58.834Z info 	[WINDOW] Open app://dd/dashboard { windowOptions: { minHeight: 600, minWidth: 940 } }
+2026-04-27T12:45:58.901Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:45:58.902Z info 	Host config environment is prod
+2026-04-27T12:45:58.903Z info 	[BUGSNAG] Setting analytics enabled: true
+2026-04-27T12:45:58.904Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:45:58.980Z info 	[WEB-CONTENT] Serving page HTML (67 feature flags)
+2026-04-27T12:45:59.335Z error 	[THEME] Theme fetch is slow; emitting failed action
+2026-04-27T12:45:59.336Z info 	[TRAY] Determined initial tray icon
+2026-04-27T12:45:59.442Z error 	[HTTP] GET /exp/vDD4.40/models: Service Unavailable ("Docker Desktop is unable to start\n\n\n")
+2026-04-27T12:45:59.460Z error 	Failed to fetch Docker AI models Object [Error] {
+  name: 'Error',
+  message: '"Docker Desktop is unable to start\\n\\n\\n"',
+  stack: 'Error: "Docker Desktop is unable to start\\n\\n\\n"\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20730\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20685',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Request failed with status code 503',
+    stack: 'Error: Request failed with status code 503\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1213514)\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1296335)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:95831)\n' +
+      '    at IncomingMessage.emit (node:events:531:35)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1698:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)',
+    config: {
+      transitional: [Object],
+      adapter: [Function (anonymous)],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      httpAgent: [Agent],
+      proxy: false,
+      insecureHTTPParser: true,
+      url: '/exp/vDD4.40/models',
+      method: 'get',
+      responseType: 'json',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /exp/vDD4.40/models HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'User-Agent: Docker-Desktop/4.66.1 (Windows; x64; GUI)\r\n' +
+        'Desktop-Session-Id: 8660a8c8\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: true,
+      joinDuplicateHeaders: undefined,
+      path: '/exp/vDD4.40/models',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 503,
+      statusText: 'Service Unavailable',
+      headers: [Object],
+      config: [Object],
+      request: [ClientRequest],
+      data: 'Docker Desktop is unable to start\n\n\n'
+    },
+    isAxiosError: true,
+    toJSON: [Function (anonymous)]
+  },
+  response: {
+    data: 'Docker Desktop is unable to start\n\n\n',
+    headers: {
+      'content-type': 'text/plain; charset=utf-8',
+      'x-content-type-options': 'nosniff',
+      date: 'Mon, 27 Apr 2026 12:45:59 GMT',
+      'content-length': '36'
+    },
+    status: 503,
+    statusText: 'Service Unavailable'
+  },
+  aborted: false,
+  nodeErrorCode: undefined,
+  __isRequestFailedError: true,
+  status: 503,
+  data: 'Docker Desktop is unable to start\n\n\n'
+}
+2026-04-27T12:45:59.470Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T12:45:59.470Z info 	[REDUX] Added store replica 1
+2026-04-27T12:45:59.473Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T12:45:59.474Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T12:45:59.475Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T12:45:59.475Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:45:59.476Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T12:45:59.651Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T12:45:59.654Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:45:59.656Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T12:45:59.659Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T12:45:59.660Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T12:45:59.749Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T12:45:59.754Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/user/orgs?page_size=100 to dd://hub/v2/user/orgs?page_size=100
+2026-04-27T12:46:00.648Z info 	[THEME] Got Windows theme from registry: dark
+2026-04-27T12:46:06.891Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:46:07.989Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:46:08.915Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:50:01.146Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T12:50:01.146Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 241487ms, emitted 1 times
+2026-04-27T12:50:01.147Z info 	[IPC] terminal.getTerminals: Unsubscribed after 241671ms, emitted 1 times
+2026-04-27T12:50:01.148Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T12:50:01.148Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 241673ms, emitted 2 times
+2026-04-27T12:50:01.148Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 241674ms, emitted 0 times
+2026-04-27T12:50:01.148Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 241492ms, emitted 1 times
+2026-04-27T12:50:01.149Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 241499ms, emitted 1 times
+2026-04-27T12:50:01.149Z info 	[REDUX] Removed store replica 1
+2026-04-27T12:50:01.150Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T12:50:01.150Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 241680ms, emitted 34 times
+2026-04-27T12:51:17.088Z info 	[WINDOW] Open app://dd/dashboard { windowOptions: { minHeight: 600, minWidth: 940 } }
+2026-04-27T12:51:17.114Z info 	[WEB-CONTENT] Serving page HTML (67 feature flags)
+2026-04-27T12:51:17.541Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T12:51:17.542Z info 	[REDUX] Added store replica 2
+2026-04-27T12:51:17.543Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T12:51:17.546Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T12:51:17.547Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T12:51:17.547Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:51:17.548Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T12:51:17.702Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T12:51:17.703Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:51:17.705Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T12:51:17.709Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T12:51:17.709Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T12:51:17.803Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T12:51:17.804Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/user/orgs?page_size=100 to dd://hub/v2/user/orgs?page_size=100
+2026-04-27T12:51:17.953Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:51:28.814Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 11109ms, emitted 1 times
+2026-04-27T12:51:28.815Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 11114ms, emitted 1 times
+2026-04-27T12:51:28.874Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T12:51:28.875Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T12:51:28.881Z info 	[IPC] getCloudAccounts
+2026-04-27T12:51:57.524Z info 	[IPC] getCloudAccounts
+2026-04-27T12:52:01.185Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 32310ms, emitted 1 times
+2026-04-27T12:52:01.186Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 32312ms, emitted 1 times
+2026-04-27T12:52:01.187Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T12:52:01.187Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T12:55:12.145Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T12:55:12.146Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 234437ms, emitted 1 times
+2026-04-27T12:55:12.146Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 190959ms, emitted 1 times
+2026-04-27T12:55:12.146Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 190959ms, emitted 1 times
+2026-04-27T12:55:12.147Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T12:55:12.147Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 234600ms, emitted 0 times
+2026-04-27T12:55:12.147Z info 	[IPC] terminal.getTerminals: Unsubscribed after 234599ms, emitted 1 times
+2026-04-27T12:55:12.147Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 234601ms, emitted 0 times
+2026-04-27T12:55:12.148Z info 	[REDUX] Removed store replica 2
+2026-04-27T12:55:12.149Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T12:55:12.149Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 234608ms, emitted 34 times
+2026-04-27T12:56:24.026Z info 	[STARTUP] Launched with: {
+  params: { 'analytics-enabled': true, reason: 'open-tray', name: 'dashboard' },
+  pid: 10808,
+  ppid: 9788,
+  NODE_ENV: 'production',
+  E2E: false,
+  E2E_CONTEXT: undefined,
+  PINATA_LOGS_ADDITIONAL_PATH: undefined,
+  DEVHOME: undefined,
+  isPackaged: true,
+  appVersion: '4.66.1'
+}
+2026-04-27T12:56:24.226Z info 	[STARTUP] Checking backend is running
+2026-04-27T12:56:24.326Z info 	[NETWORK] Creating V1 engine client
+2026-04-27T12:56:24.453Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T12:56:24.455Z info 	[SSE] Connecting to backend:/notify/messagebox/events
+2026-04-27T12:56:24.456Z info 	[SSE] Connecting to backend:/notify/notifications
+2026-04-27T12:56:24.456Z info 	[THEME] Electron nativeTheme: dark
+2026-04-27T12:56:24.457Z info 	[THEME] Fetching Windows theme from registry
+2026-04-27T12:56:24.478Z info 	[SSE] Connecting to backend:/wasm/events
+2026-04-27T12:56:24.478Z info 	[SSE] Connecting to backend:/features/events
+2026-04-27T12:56:24.479Z info 	[SSE] Connecting to backend:/update/events
+2026-04-27T12:56:24.480Z info 	[SSE] Connecting to backend:/mutagen/file-shares/stream
+2026-04-27T12:56:24.480Z info 	[SSE] Connecting to backend:/license/events
+2026-04-27T12:56:24.481Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T12:56:24.481Z info 	[SSE] Connecting to backend:/versions/events
+2026-04-27T12:56:24.482Z info 	[SSE] Connecting to backend:/engine/events
+2026-04-27T12:56:24.482Z info 	[SSE] Connecting to backend:/install/events
+2026-04-27T12:56:24.483Z info 	[SSE] Connecting to backend:/kubernetes/events
+2026-04-27T12:56:24.483Z info 	[SSE] Connecting to backend:/pause/events
+2026-04-27T12:56:24.484Z info 	[SSE] Connecting to backend:/clicontext/events
+2026-04-27T12:56:24.539Z info 	application has just finished initializing
+2026-04-27T12:56:24.539Z info 	[WEB-CONTENT] Registering app://
+2026-04-27T12:56:24.589Z info 	[TRAY] Creating tray menu
+2026-04-27T12:56:25.259Z info 	[WINDOW] Open app://dd/dashboard { windowOptions: { minHeight: 600, minWidth: 940 } }
+2026-04-27T12:56:25.575Z error 	[THEME] Theme fetch is slow; emitting failed action
+2026-04-27T12:56:25.646Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:56:25.646Z info 	Host config environment is prod
+2026-04-27T12:56:25.647Z info 	[BUGSNAG] Setting analytics enabled: true
+2026-04-27T12:56:25.649Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:56:25.712Z info 	[TRAY] Determined initial tray icon
+2026-04-27T12:56:25.795Z error 	[HTTP] GET /exp/vDD4.40/models: Service Unavailable ("Docker Desktop is unable to start\n\n\n")
+2026-04-27T12:56:25.815Z error 	Failed to fetch Docker AI models Object [Error] {
+  name: 'Error',
+  message: '"Docker Desktop is unable to start\\n\\n\\n"',
+  stack: 'Error: "Docker Desktop is unable to start\\n\\n\\n"\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20730\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20685',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Request failed with status code 503',
+    stack: 'Error: Request failed with status code 503\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1213514)\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1296335)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:95831)\n' +
+      '    at IncomingMessage.emit (node:events:531:35)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1698:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)',
+    config: {
+      transitional: [Object],
+      adapter: [Function (anonymous)],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      httpAgent: [Agent],
+      proxy: false,
+      insecureHTTPParser: true,
+      url: '/exp/vDD4.40/models',
+      method: 'get',
+      responseType: 'json',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /exp/vDD4.40/models HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'User-Agent: Docker-Desktop/4.66.1 (Windows; x64; GUI)\r\n' +
+        'Desktop-Session-Id: 859dd088\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: true,
+      joinDuplicateHeaders: undefined,
+      path: '/exp/vDD4.40/models',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 503,
+      statusText: 'Service Unavailable',
+      headers: [Object],
+      config: [Object],
+      request: [ClientRequest],
+      data: 'Docker Desktop is unable to start\n\n\n'
+    },
+    isAxiosError: true,
+    toJSON: [Function (anonymous)]
+  },
+  response: {
+    data: 'Docker Desktop is unable to start\n\n\n',
+    headers: {
+      'content-type': 'text/plain; charset=utf-8',
+      'x-content-type-options': 'nosniff',
+      date: 'Mon, 27 Apr 2026 12:56:25 GMT',
+      'content-length': '36'
+    },
+    status: 503,
+    statusText: 'Service Unavailable'
+  },
+  aborted: false,
+  nodeErrorCode: undefined,
+  __isRequestFailedError: true,
+  status: 503,
+  data: 'Docker Desktop is unable to start\n\n\n'
+}
+2026-04-27T12:56:25.858Z error 	[HTTP] GET /exp/vDD4.40/models: Service Unavailable ("Docker Desktop is unable to start\n\n\n")
+2026-04-27T12:56:25.868Z error 	Failed to fetch Docker AI models Object [Error] {
+  name: 'Error',
+  message: '"Docker Desktop is unable to start\\n\\n\\n"',
+  stack: 'Error: "Docker Desktop is unable to start\\n\\n\\n"\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20730\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20685',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Request failed with status code 503',
+    stack: 'Error: Request failed with status code 503\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1213514)\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1296335)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:95831)\n' +
+      '    at IncomingMessage.emit (node:events:531:35)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1698:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)',
+    config: {
+      transitional: [Object],
+      adapter: [Function (anonymous)],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      httpAgent: [Agent],
+      proxy: false,
+      insecureHTTPParser: true,
+      url: '/exp/vDD4.40/models',
+      method: 'get',
+      responseType: 'json',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /exp/vDD4.40/models HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'User-Agent: Docker-Desktop/4.66.1 (Windows; x64; GUI)\r\n' +
+        'Desktop-Session-Id: 859dd088\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: true,
+      joinDuplicateHeaders: undefined,
+      path: '/exp/vDD4.40/models',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 503,
+      statusText: 'Service Unavailable',
+      headers: [Object],
+      config: [Object],
+      request: [ClientRequest],
+      data: 'Docker Desktop is unable to start\n\n\n'
+    },
+    isAxiosError: true,
+    toJSON: [Function (anonymous)]
+  },
+  response: {
+    data: 'Docker Desktop is unable to start\n\n\n',
+    headers: {
+      'content-type': 'text/plain; charset=utf-8',
+      'x-content-type-options': 'nosniff',
+      date: 'Mon, 27 Apr 2026 12:56:25 GMT',
+      'content-length': '36'
+    },
+    status: 503,
+    statusText: 'Service Unavailable'
+  },
+  aborted: false,
+  nodeErrorCode: undefined,
+  __isRequestFailedError: true,
+  status: 503,
+  data: 'Docker Desktop is unable to start\n\n\n'
+}
+2026-04-27T12:56:26.030Z info 	[WEB-CONTENT] Serving page HTML (67 feature flags)
+2026-04-27T12:56:26.671Z error 	[HTTP] GET /exp/vDD4.40/models: Service Unavailable ("Docker Desktop is unable to start\n\n\n")
+2026-04-27T12:56:26.680Z error 	Failed to fetch Docker AI models Object [Error] {
+  name: 'Error',
+  message: '"Docker Desktop is unable to start\\n\\n\\n"',
+  stack: 'Error: "Docker Desktop is unable to start\\n\\n\\n"\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20730\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:20685',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Request failed with status code 503',
+    stack: 'Error: Request failed with status code 503\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1213514)\n' +
+      '    at e.exports (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1296335)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:95831)\n' +
+      '    at IncomingMessage.emit (node:events:531:35)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1698:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)',
+    config: {
+      transitional: [Object],
+      adapter: [Function (anonymous)],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      httpAgent: [Agent],
+      proxy: false,
+      insecureHTTPParser: true,
+      url: '/exp/vDD4.40/models',
+      method: 'get',
+      responseType: 'json',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /exp/vDD4.40/models HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'User-Agent: Docker-Desktop/4.66.1 (Windows; x64; GUI)\r\n' +
+        'Desktop-Session-Id: 859dd088\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: '\\\\.\\pipe\\dockerDesktopEngine',
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: true,
+      joinDuplicateHeaders: undefined,
+      path: '/exp/vDD4.40/models',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 503,
+      statusText: 'Service Unavailable',
+      headers: [Object],
+      config: [Object],
+      request: [ClientRequest],
+      data: 'Docker Desktop is unable to start\n\n\n'
+    },
+    isAxiosError: true,
+    toJSON: [Function (anonymous)]
+  },
+  response: {
+    data: 'Docker Desktop is unable to start\n\n\n',
+    headers: {
+      'content-type': 'text/plain; charset=utf-8',
+      'x-content-type-options': 'nosniff',
+      date: 'Mon, 27 Apr 2026 12:56:26 GMT',
+      'content-length': '36'
+    },
+    status: 503,
+    statusText: 'Service Unavailable'
+  },
+  aborted: false,
+  nodeErrorCode: undefined,
+  __isRequestFailedError: true,
+  status: 503,
+  data: 'Docker Desktop is unable to start\n\n\n'
+}
+2026-04-27T12:56:26.690Z info 	[THEME] Got Windows theme from registry: dark
+2026-04-27T12:56:26.736Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T12:56:26.736Z info 	[REDUX] Added store replica 1
+2026-04-27T12:56:26.740Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T12:56:26.741Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T12:56:26.742Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T12:56:26.742Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T12:56:26.743Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T12:56:27.033Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T12:56:27.036Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:56:27.039Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T12:56:27.041Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T12:56:27.042Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T12:56:27.136Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T12:56:27.138Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/user/orgs?page_size=100 to dd://hub/v2/user/orgs?page_size=100
+2026-04-27T12:56:33.075Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:56:35.274Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:56:36.350Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T12:59:50.855Z info 	[SSE] Disconnecting from backend:/notify/notifications
+2026-04-27T12:59:50.858Z info 	[SSE] Disconnecting from backend:/registry/state
+2026-04-27T12:59:50.858Z info 	[SSE] Disconnecting from backend:/notify/messagebox/events
+2026-04-27T12:59:50.859Z info 	[SSE] Disconnecting from backend:/mutagen/file-shares/stream
+2026-04-27T12:59:50.859Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/mutagen/file-shares/stream (socket hang up)',
+  stack: 'Error: backend:/mutagen/file-shares/stream (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016240)'
+  }
+}
+2026-04-27T12:59:50.860Z info 	[SSE] Disconnecting from backend:/install/events
+2026-04-27T12:59:50.860Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/install/events (socket hang up)',
+  stack: 'Error: backend:/install/events (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016240)'
+  }
+}
+2026-04-27T12:59:50.861Z info 	[SSE] Disconnecting from backend:/kubernetes/events
+2026-04-27T12:59:50.861Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/kubernetes/events (socket hang up)',
+  stack: 'Error: backend:/kubernetes/events (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016240)'
+  }
+}
+2026-04-27T12:59:50.862Z info 	[SSE] Disconnecting from backend:/pause/events
+2026-04-27T12:59:50.862Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/pause/events (socket hang up)',
+  stack: 'Error: backend:/pause/events (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016240)'
+  }
+}
+2026-04-27T12:59:50.863Z info 	[SSE] Disconnecting from backend:/wasm/events
+2026-04-27T12:59:50.863Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/wasm/events (socket hang up)',
+  stack: 'Error: backend:/wasm/events (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016240)'
+  }
+}
+2026-04-27T12:59:50.865Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T12:59:50.865Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T12:59:50.865Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T12:59:50.866Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T12:59:50.866Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T12:59:50.866Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/stats (Unknown error)',
+  stack: 'Error: backend:/stats (Unknown error)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Unknown error',
+    stack: 'Error: Unknown error\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1015656)'
+  }
+}
+2026-04-27T12:59:50.867Z info 	[SSE] Disconnecting from backend:/features/events
+2026-04-27T12:59:50.867Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/features/events (Unknown error)',
+  stack: 'Error: backend:/features/events (Unknown error)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Unknown error',
+    stack: 'Error: Unknown error\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1015656)'
+  }
+}
+2026-04-27T12:59:50.867Z info 	[SSE] Disconnecting from backend:/update/events
+2026-04-27T12:59:50.867Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/update/events (Unknown error)',
+  stack: 'Error: backend:/update/events (Unknown error)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Unknown error',
+    stack: 'Error: Unknown error\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1015656)'
+  }
+}
+2026-04-27T12:59:50.867Z info 	[SSE] Disconnecting from backend:/clicontext/events
+2026-04-27T12:59:50.868Z info 	[SSE] Disconnecting from backend:/engine/events
+2026-04-27T12:59:50.868Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/engine/events (Unknown error)',
+  stack: 'Error: backend:/engine/events (Unknown error)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Unknown error',
+    stack: 'Error: Unknown error\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1015656)'
+  }
+}
+2026-04-27T12:59:50.868Z info 	[SSE] Disconnecting from backend:/versions/events
+2026-04-27T12:59:50.868Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/versions/events (Unknown error)',
+  stack: 'Error: backend:/versions/events (Unknown error)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Unknown error',
+    stack: 'Error: Unknown error\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1015656)'
+  }
+}
+2026-04-27T12:59:50.869Z info 	[SSE] Disconnecting from backend:/registry/state
+2026-04-27T12:59:50.869Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/registry/state (Unknown error)',
+  stack: 'Error: backend:/registry/state (Unknown error)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Unknown error',
+    stack: 'Error: Unknown error\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1015656)'
+  }
+}
+2026-04-27T12:59:50.869Z info 	[SSE] Disconnecting from backend:/license/events
+2026-04-27T12:59:50.869Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/license/events (Unknown error)',
+  stack: 'Error: backend:/license/events (Unknown error)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:125850\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1273239\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:506479)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882644)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882588\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:593181)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:882503)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:438745\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047687)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140898)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Unknown error',
+    stack: 'Error: Unknown error\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:809168\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:521023)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:520981)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1047618)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:140817)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1275055)\n' +
+      '    at d.emit (node:events:519:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1016351)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1013909)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:2:1015656)'
+  }
+}
+2026-04-27T12:59:50.904Z info 	[BUGSNAG] .notify:  {
+  name: 'Error',
+  message: 'child-process-gone: {"type":"Utility","reason":"crashed","exitCode":-1,"serviceName":"network.mojom.NetworkService","name":"Network Service"}'
+}
+2026-04-27T12:59:50.904Z error 	[ELECTRON] child-process-gone: {"type":"Utility","reason":"crashed","exitCode":-1,"serviceName":"network.mojom.NetworkService","name":"Network Service"}
+2026-04-27T12:59:50.988Z info 	[BUGSNAG] Sending event Error: child-process-gone: {"type":"Utility","reason":"crashed","exitCode":-1,"serviceName":"network.mojom.NetworkService","name":"Network Service"}
+2026-04-27T12:59:50.993Z error 	[BUGSNAG] event failed to send…
+ Error: net::ERR_FAILED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:130459)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-04-27T12:59:50.993Z info 	[BUGSNAG] Writing event payload to cache
+2026-04-27T12:59:51.093Z info 	[BUGSNAG] Blocking duplicate error: child-process-gone: {"type":"GPU","reason":"crashed","exitCode":-1,"serviceName":"GPU"}
+2026-04-27T12:59:51.094Z error 	[ELECTRON] child-process-gone: {"type":"GPU","reason":"crashed","exitCode":-1,"serviceName":"GPU"}
+2026-04-27T12:59:51.114Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 204073ms, emitted 1 times
+2026-04-27T12:59:51.115Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 204076ms, emitted 1 times
+2026-04-27T12:59:51.115Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 204374ms, emitted 0 times
+2026-04-27T12:59:51.116Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 204374ms, emitted 2 times
+2026-04-27T12:59:51.116Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 204083ms, emitted 1 times
+2026-04-27T12:59:51.116Z info 	[IPC] terminal.getTerminals: Unsubscribed after 204373ms, emitted 1 times
+2026-04-27T12:59:51.117Z info 	[REDUX] Removed store replica 1
+2026-04-27T12:59:51.119Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 204382ms, emitted 72 times
+2026-04-27T12:59:51.125Z info 	[BUGSNAG] .notify:  {
+  name: 'Error',
+  message: 'renderer process has gone unexpectedly: {"reason":"crashed","exitCode":-1}'
+}
+2026-04-27T12:59:51.125Z error 	[ELECTRON] render-process-gone gone: {"reason":"crashed","exitCode":-1}
+2026-04-27T13:00:00.153Z info 	[STARTUP] Launched with: {
+  params: { 'analytics-enabled': true, reason: 'open-tray', name: 'dashboard' },
+  pid: 9440,
+  ppid: 13704,
+  NODE_ENV: 'production',
+  isPackaged: true
+}
+2026-04-27T13:00:00.256Z info 	[STARTUP] Checking backend is running
+2026-04-27T13:00:00.306Z info 	[STARTUP] App version: 4.71.0 (225177)
+2026-04-27T13:00:00.327Z info 	[NETWORK] Creating V1 engine client
+2026-04-27T13:00:00.355Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T13:00:00.357Z info 	[SSE] Connecting to backend:/notify/messagebox/events
+2026-04-27T13:00:00.358Z info 	[SSE] Connecting to backend:/notify/notifications
+2026-04-27T13:00:00.358Z info 	[THEME] Electron nativeTheme: dark
+2026-04-27T13:00:00.358Z info 	[THEME] Fetching Windows theme from registry
+2026-04-27T13:00:00.570Z info 	[SSE] Connecting to backend:/wasm/events
+2026-04-27T13:00:00.571Z info 	[SSE] Connecting to backend:/features/events
+2026-04-27T13:00:00.572Z info 	[SSE] Connecting to backend:/update/events
+2026-04-27T13:00:00.572Z info 	[SSE] Connecting to backend:/mutagen/file-shares/stream
+2026-04-27T13:00:00.573Z info 	[SSE] Connecting to backend:/license/events
+2026-04-27T13:00:00.573Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T13:00:00.574Z info 	[SSE] Connecting to backend:/versions/events
+2026-04-27T13:00:00.574Z info 	[SSE] Connecting to backend:/engine/events
+2026-04-27T13:00:00.575Z info 	[SSE] Connecting to backend:/install/events
+2026-04-27T13:00:00.575Z info 	[SSE] Connecting to backend:/kubernetes/events
+2026-04-27T13:00:00.576Z info 	[SSE] Connecting to backend:/pause/events
+2026-04-27T13:00:00.576Z info 	[SSE] Connecting to backend:/clicontext/events
+2026-04-27T13:00:00.618Z info 	application has just finished initializing
+2026-04-27T13:00:00.618Z info 	[WEB-CONTENT] Registering app://
+2026-04-27T13:00:00.623Z info 	[TRAY] Creating tray menu
+2026-04-27T13:00:01.084Z info 	[WINDOW] Open app://dd/dashboard {
+  windowOptions: { minHeight: 600, minWidth: 940, width: 1270, height: 720 }
+}
+2026-04-27T13:00:01.085Z info 	[WINDOW] Restoring stored state for window 'dashboard' undefined
+2026-04-27T13:00:01.181Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T13:00:01.181Z info 	Host config environment is prod
+2026-04-27T13:00:01.182Z info 	[BUGSNAG] Setting analytics enabled: true
+2026-04-27T13:00:01.184Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T13:00:01.229Z info 	[WEB-CONTENT] Serving page HTML (69 feature flags)
+2026-04-27T13:00:01.384Z error 	[THEME] Theme fetch is slow; emitting failed action
+2026-04-27T13:00:01.385Z info 	[TRAY] Determined initial tray icon
+2026-04-27T13:00:01.893Z info 	[THEME] Got Windows theme from registry: dark
+2026-04-27T13:00:02.112Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T13:00:02.112Z info 	[REDUX] Added store replica 1
+2026-04-27T13:00:02.115Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T13:00:02.116Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T13:00:02.118Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T13:00:02.119Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T13:00:02.119Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T13:00:02.270Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T13:00:02.271Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T13:00:02.273Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T13:00:02.276Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T13:00:02.277Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T13:00:02.358Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T13:00:07.865Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T13:00:08.983Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T13:00:10.004Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T13:01:01.671Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 59398ms, emitted 1 times
+2026-04-27T13:01:01.672Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 59402ms, emitted 1 times
+2026-04-27T13:01:01.739Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T13:01:01.740Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T13:01:01.745Z info 	[IPC] getCloudAccounts
+2026-04-27T13:01:04.663Z info 	[IPC] getCloudAccounts
+2026-04-27T13:01:06.078Z info 	[IPC] build.buildBackendGetBuildersStream: Started streaming ([{}])
+2026-04-27T13:01:06.078Z info 	[SSE] Connecting to buildBackend:/builders/stream
+2026-04-27T13:01:06.079Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/cloud-builds/accounts/amandar4is to dd://hub/v2/cloud-builds/accounts/amandar4is
+2026-04-27T13:01:06.285Z error 	[HTTP] GET https://hub.docker.com/v2/cloud-builds/accounts/amandar4is: Not Found (HTTP 404: Not Found)
+2026-04-27T13:01:06.794Z info 	[SSE] Disconnecting from buildBackend:/builders/stream
+2026-04-27T13:01:06.795Z info 	[IPC] build.buildBackendGetBuildersStream: Unsubscribed after 718ms, emitted 0 times
+2026-04-27T13:01:12.749Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 11009ms, emitted 1 times
+2026-04-27T13:01:12.750Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 11011ms, emitted 1 times
+2026-04-27T13:01:12.751Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T13:01:12.751Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T13:05:06.576Z error 	[VOLUMES] Failed to fetch volume sizes Object [HeadersTimeoutError] {
+  name: 'HeadersTimeoutError',
+  message: 'Headers Timeout Error',
+  stack: 'HeadersTimeoutError: Headers Timeout Error\n' +
+    '    at a.oe [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:135098)\n' +
+    '    at Timeout.i [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:642065)\n' +
+    '    at listOnTimeout (node:internal/timers:605:17)\n' +
+    '    at process.processTimers (node:internal/timers:541:7)',
+  code: 'UND_ERR_HEADERS_TIMEOUT'
+}
+2026-04-27T13:05:06.579Z info 	[BUGSNAG] .notify:  { name: 'HeadersTimeoutError', message: 'Headers Timeout Error' }
+2026-04-27T13:05:07.152Z info 	[BUGSNAG] Sending event HeadersTimeoutError: Headers Timeout Error
+2026-04-27T13:07:28.180Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T13:07:28.180Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 445904ms, emitted 1 times
+2026-04-27T13:07:28.181Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 446065ms, emitted 0 times
+2026-04-27T13:07:28.181Z info 	[IPC] terminal.getTerminals: Unsubscribed after 446062ms, emitted 1 times
+2026-04-27T13:07:28.182Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 375431ms, emitted 1 times
+2026-04-27T13:07:28.182Z info 	[REDUX] Removed store replica 1
+2026-04-27T13:07:28.183Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T13:07:28.183Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 446071ms, emitted 63 times
+2026-04-27T13:07:28.184Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 375432ms, emitted 1 times
+2026-04-27T13:07:28.184Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T13:07:28.184Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 446066ms, emitted 2 times
+2026-04-27T13:13:03.713Z info 	[STARTUP] Launched with: {
+  params: { 'analytics-enabled': true, reason: 'open-tray', name: 'dashboard' },
+  pid: 12556,
+  ppid: 11484,
+  NODE_ENV: 'production',
+  isPackaged: true
+}
+2026-04-27T13:13:03.977Z info 	[STARTUP] Checking backend is running
+2026-04-27T13:13:04.089Z info 	[STARTUP] App version: 4.71.0 (225177)
+2026-04-27T13:13:04.137Z info 	[NETWORK] Creating V1 engine client
+2026-04-27T13:13:04.243Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T13:13:04.245Z info 	[SSE] Connecting to backend:/notify/messagebox/events
+2026-04-27T13:13:04.246Z info 	[SSE] Connecting to backend:/notify/notifications
+2026-04-27T13:13:04.247Z info 	[THEME] Electron nativeTheme: dark
+2026-04-27T13:13:04.247Z info 	[THEME] Fetching Windows theme from registry
+2026-04-27T13:13:04.290Z info 	[SSE] Connecting to backend:/wasm/events
+2026-04-27T13:13:04.291Z info 	[SSE] Connecting to backend:/features/events
+2026-04-27T13:13:04.291Z info 	[SSE] Connecting to backend:/update/events
+2026-04-27T13:13:04.292Z info 	[SSE] Connecting to backend:/mutagen/file-shares/stream
+2026-04-27T13:13:04.293Z info 	[SSE] Connecting to backend:/license/events
+2026-04-27T13:13:04.293Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T13:13:04.294Z info 	[SSE] Connecting to backend:/versions/events
+2026-04-27T13:13:04.295Z info 	[SSE] Connecting to backend:/engine/events
+2026-04-27T13:13:04.295Z info 	[SSE] Connecting to backend:/install/events
+2026-04-27T13:13:04.296Z info 	[SSE] Connecting to backend:/kubernetes/events
+2026-04-27T13:13:04.296Z info 	[SSE] Connecting to backend:/pause/events
+2026-04-27T13:13:04.297Z info 	[SSE] Connecting to backend:/clicontext/events
+2026-04-27T13:13:04.458Z info 	application has just finished initializing
+2026-04-27T13:13:04.459Z info 	[WEB-CONTENT] Registering app://
+2026-04-27T13:13:04.468Z info 	[TRAY] Creating tray menu
+2026-04-27T13:13:05.054Z info 	[WINDOW] Open app://dd/dashboard {
+  windowOptions: { minHeight: 600, minWidth: 940, width: 1270, height: 720 }
+}
+2026-04-27T13:13:05.055Z info 	[WINDOW] Restoring stored state for window 'dashboard' undefined
+2026-04-27T13:13:05.293Z error 	[THEME] Theme fetch is slow; emitting failed action
+2026-04-27T13:13:05.309Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T13:13:05.309Z info 	Host config environment is prod
+2026-04-27T13:13:05.310Z info 	[BUGSNAG] Setting analytics enabled: true
+2026-04-27T13:13:05.312Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T13:13:05.442Z info 	[TRAY] Determined initial tray icon
+2026-04-27T13:13:05.498Z info 	[WEB-CONTENT] Serving page HTML (69 feature flags)
+2026-04-27T13:13:05.982Z info 	[THEME] Got Windows theme from registry: dark
+2026-04-27T13:13:06.159Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T13:13:06.159Z info 	[REDUX] Added store replica 1
+2026-04-27T13:13:06.161Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T13:13:06.163Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T13:13:06.164Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T13:13:06.164Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T13:13:06.165Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T13:13:06.440Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T13:13:06.442Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T13:13:06.444Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T13:13:06.449Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T13:13:06.449Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T13:13:06.537Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T13:13:23.089Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T13:13:24.027Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T13:18:08.756Z error 	[VOLUMES] Failed to fetch volume sizes Object [HeadersTimeoutError] {
+  name: 'HeadersTimeoutError',
+  message: 'Headers Timeout Error',
+  stack: 'HeadersTimeoutError: Headers Timeout Error\n' +
+    '    at a.oe [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:135098)\n' +
+    '    at Timeout.i [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:642065)\n' +
+    '    at listOnTimeout (node:internal/timers:605:17)\n' +
+    '    at process.processTimers (node:internal/timers:541:7)',
+  code: 'UND_ERR_HEADERS_TIMEOUT'
+}
+2026-04-27T13:18:08.759Z info 	[BUGSNAG] .notify:  { name: 'HeadersTimeoutError', message: 'Headers Timeout Error' }
+2026-04-27T13:18:09.137Z info 	[BUGSNAG] Sending event HeadersTimeoutError: Headers Timeout Error
+2026-04-27T13:19:38.483Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T13:19:38.484Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 392320ms, emitted 2 times
+2026-04-27T13:19:38.484Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 392044ms, emitted 1 times
+2026-04-27T13:19:38.485Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T13:19:38.485Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 392037ms, emitted 1 times
+2026-04-27T13:19:38.485Z info 	[REDUX] Removed store replica 1
+2026-04-27T13:19:38.486Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T13:19:38.487Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 392328ms, emitted 14 times
+2026-04-27T13:19:38.487Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 392043ms, emitted 1 times
+2026-04-27T13:19:38.488Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 392325ms, emitted 0 times
+2026-04-27T13:19:38.489Z info 	[IPC] terminal.getTerminals: Unsubscribed after 392324ms, emitted 1 times
+2026-04-27T13:23:40.217Z error 	[VOLUMES] Failed to fetch volume sizes Object [HeadersTimeoutError] {
+  name: 'HeadersTimeoutError',
+  message: 'Headers Timeout Error',
+  stack: 'HeadersTimeoutError: Headers Timeout Error\n' +
+    '    at a.oe [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:135098)\n' +
+    '    at Timeout.i [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:642065)\n' +
+    '    at listOnTimeout (node:internal/timers:605:17)\n' +
+    '    at process.processTimers (node:internal/timers:541:7)',
+  code: 'UND_ERR_HEADERS_TIMEOUT'
+}
+2026-04-27T13:23:40.218Z info 	[BUGSNAG] Blocking duplicate error: Headers Timeout Error
+2026-04-27T13:28:44.362Z error 	[VOLUMES] Failed to fetch volume sizes Object [HeadersTimeoutError] {
+  name: 'HeadersTimeoutError',
+  message: 'Headers Timeout Error',
+  stack: 'HeadersTimeoutError: Headers Timeout Error\n' +
+    '    at a.oe [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:135098)\n' +
+    '    at Timeout.i [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:642065)\n' +
+    '    at listOnTimeout (node:internal/timers:605:17)\n' +
+    '    at process.processTimers (node:internal/timers:541:7)',
+  code: 'UND_ERR_HEADERS_TIMEOUT'
+}
+2026-04-27T13:28:44.362Z info 	[BUGSNAG] Blocking duplicate error: Headers Timeout Error
+2026-04-27T21:13:05.880Z info 	[STARTUP] Launched with: {
+  params: { 'analytics-enabled': true, reason: 'open-tray', name: 'dashboard' },
+  pid: 13776,
+  ppid: 1856,
+  NODE_ENV: 'production',
+  isPackaged: true
+}
+2026-04-27T21:13:06.131Z info 	[STARTUP] Checking backend is running
+2026-04-27T21:13:06.286Z info 	[STARTUP] App version: 4.71.0 (225177)
+2026-04-27T21:13:06.335Z info 	[NETWORK] Creating V1 engine client
+2026-04-27T21:13:06.422Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T21:13:06.423Z info 	[SSE] Connecting to backend:/notify/messagebox/events
+2026-04-27T21:13:06.424Z info 	[SSE] Connecting to backend:/notify/notifications
+2026-04-27T21:13:06.425Z info 	[THEME] Electron nativeTheme: dark
+2026-04-27T21:13:06.426Z info 	[THEME] Fetching Windows theme from registry
+2026-04-27T21:13:06.447Z info 	[SSE] Connecting to backend:/wasm/events
+2026-04-27T21:13:06.448Z info 	[SSE] Connecting to backend:/features/events
+2026-04-27T21:13:06.449Z info 	[SSE] Connecting to backend:/update/events
+2026-04-27T21:13:06.449Z info 	[SSE] Connecting to backend:/mutagen/file-shares/stream
+2026-04-27T21:13:06.450Z info 	[SSE] Connecting to backend:/license/events
+2026-04-27T21:13:06.450Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T21:13:06.451Z info 	[SSE] Connecting to backend:/versions/events
+2026-04-27T21:13:06.451Z info 	[SSE] Connecting to backend:/engine/events
+2026-04-27T21:13:06.452Z info 	[SSE] Connecting to backend:/install/events
+2026-04-27T21:13:06.452Z info 	[SSE] Connecting to backend:/kubernetes/events
+2026-04-27T21:13:06.453Z info 	[SSE] Connecting to backend:/pause/events
+2026-04-27T21:13:06.453Z info 	[SSE] Connecting to backend:/clicontext/events
+2026-04-27T21:13:06.520Z info 	application has just finished initializing
+2026-04-27T21:13:06.520Z info 	[WEB-CONTENT] Registering app://
+2026-04-27T21:13:06.529Z info 	[TRAY] Creating tray menu
+2026-04-27T21:13:06.967Z info 	[WINDOW] Open app://dd/dashboard {
+  windowOptions: { minHeight: 600, minWidth: 940, width: 1270, height: 720 }
+}
+2026-04-27T21:13:06.968Z info 	[WINDOW] Restoring stored state for window 'dashboard' undefined
+2026-04-27T21:13:07.128Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:13:07.129Z info 	Host config environment is prod
+2026-04-27T21:13:07.129Z info 	[BUGSNAG] Setting analytics enabled: true
+2026-04-27T21:13:07.131Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:13:07.236Z info 	[WEB-CONTENT] Serving page HTML (69 feature flags)
+2026-04-27T21:13:07.538Z error 	[THEME] Theme fetch is slow; emitting failed action
+2026-04-27T21:13:07.642Z info 	[TRAY] Determined initial tray icon
+2026-04-27T21:13:08.305Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T21:13:08.305Z info 	[REDUX] Added store replica 1
+2026-04-27T21:13:08.307Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T21:13:08.311Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T21:13:08.312Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T21:13:08.312Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:13:08.313Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T21:13:08.520Z info 	[THEME] Got Windows theme from registry: dark
+2026-04-27T21:13:08.611Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T21:13:08.613Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:13:08.615Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T21:13:08.619Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T21:13:08.619Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T21:13:08.720Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T21:13:26.337Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:13:27.354Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:17:30.586Z info 	[IPC] terminal.getTerminals: Unsubscribed after 262273ms, emitted 1 times
+2026-04-27T21:17:30.587Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T21:17:30.587Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 261968ms, emitted 1 times
+2026-04-27T21:17:30.588Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 261974ms, emitted 1 times
+2026-04-27T21:17:30.588Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T21:17:30.589Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 262277ms, emitted 2 times
+2026-04-27T21:17:30.589Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 261978ms, emitted 1 times
+2026-04-27T21:17:30.589Z info 	[REDUX] Removed store replica 1
+2026-04-27T21:17:30.590Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T21:17:30.590Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 262285ms, emitted 14 times
+2026-04-27T21:17:30.591Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 262280ms, emitted 0 times
+2026-04-27T21:19:58.562Z info 	[STARTUP] Launched with: {
+  params: { 'analytics-enabled': true, reason: 'open-tray', name: 'dashboard' },
+  pid: 896,
+  ppid: 11528,
+  NODE_ENV: 'production',
+  isPackaged: true
+}
+2026-04-27T21:19:58.797Z info 	[STARTUP] Checking backend is running
+2026-04-27T21:19:59.011Z info 	[STARTUP] App version: 4.71.0 (225177)
+2026-04-27T21:19:59.063Z info 	[NETWORK] Creating V1 engine client
+2026-04-27T21:19:59.149Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T21:19:59.151Z info 	[SSE] Connecting to backend:/notify/messagebox/events
+2026-04-27T21:19:59.152Z info 	[SSE] Connecting to backend:/notify/notifications
+2026-04-27T21:19:59.152Z info 	[THEME] Electron nativeTheme: dark
+2026-04-27T21:19:59.152Z info 	[THEME] Fetching Windows theme from registry
+2026-04-27T21:19:59.175Z info 	[SSE] Connecting to backend:/wasm/events
+2026-04-27T21:19:59.175Z info 	[SSE] Connecting to backend:/features/events
+2026-04-27T21:19:59.176Z info 	[SSE] Connecting to backend:/update/events
+2026-04-27T21:19:59.177Z info 	[SSE] Connecting to backend:/mutagen/file-shares/stream
+2026-04-27T21:19:59.178Z info 	[SSE] Connecting to backend:/license/events
+2026-04-27T21:19:59.179Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T21:19:59.180Z info 	[SSE] Connecting to backend:/versions/events
+2026-04-27T21:19:59.181Z info 	[SSE] Connecting to backend:/engine/events
+2026-04-27T21:19:59.181Z info 	[SSE] Connecting to backend:/install/events
+2026-04-27T21:19:59.182Z info 	[SSE] Connecting to backend:/kubernetes/events
+2026-04-27T21:19:59.183Z info 	[SSE] Connecting to backend:/pause/events
+2026-04-27T21:19:59.183Z info 	[SSE] Connecting to backend:/clicontext/events
+2026-04-27T21:19:59.238Z info 	application has just finished initializing
+2026-04-27T21:19:59.239Z info 	[WEB-CONTENT] Registering app://
+2026-04-27T21:19:59.286Z info 	[TRAY] Creating tray menu
+2026-04-27T21:19:59.744Z info 	[WINDOW] Open app://dd/dashboard {
+  windowOptions: { minHeight: 600, minWidth: 940, width: 1270, height: 720 }
+}
+2026-04-27T21:19:59.746Z info 	[WINDOW] Restoring stored state for window 'dashboard' undefined
+2026-04-27T21:19:59.941Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:19:59.941Z info 	Host config environment is prod
+2026-04-27T21:19:59.942Z info 	[BUGSNAG] Setting analytics enabled: true
+2026-04-27T21:19:59.944Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:20:00.088Z info 	[WEB-CONTENT] Serving page HTML (69 feature flags)
+2026-04-27T21:20:00.172Z error 	[THEME] Theme fetch is slow; emitting failed action
+2026-04-27T21:20:00.285Z info 	[TRAY] Determined initial tray icon
+2026-04-27T21:20:01.095Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T21:20:01.096Z info 	[REDUX] Added store replica 1
+2026-04-27T21:20:01.098Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T21:20:01.103Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T21:20:01.103Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T21:20:01.104Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:20:01.105Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T21:20:01.356Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T21:20:01.359Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T21:20:01.360Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:20:01.365Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T21:20:01.366Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T21:20:01.473Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T21:20:02.208Z info 	[THEME] Got Windows theme from registry: dark
+2026-04-27T21:20:17.853Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:20:19.102Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:25:05.734Z error 	[VOLUMES] Failed to fetch volume sizes Object [HeadersTimeoutError] {
+  name: 'HeadersTimeoutError',
+  message: 'Headers Timeout Error',
+  stack: 'HeadersTimeoutError: Headers Timeout Error\n' +
+    '    at a.oe [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:135098)\n' +
+    '    at Timeout.i [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:642065)\n' +
+    '    at listOnTimeout (node:internal/timers:605:17)\n' +
+    '    at process.processTimers (node:internal/timers:541:7)',
+  code: 'UND_ERR_HEADERS_TIMEOUT'
+}
+2026-04-27T21:25:05.738Z info 	[BUGSNAG] .notify:  { name: 'HeadersTimeoutError', message: 'Headers Timeout Error' }
+2026-04-27T21:25:06.164Z info 	[BUGSNAG] Sending event HeadersTimeoutError: Headers Timeout Error
+2026-04-27T21:29:18.999Z info 	before closing windows, childPids to kill:  []
+2026-04-27T21:29:19.058Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 557699ms, emitted 1 times
+2026-04-27T21:29:19.059Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T21:29:19.059Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 557694ms, emitted 1 times
+2026-04-27T21:29:19.060Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T21:29:19.060Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 557957ms, emitted 2 times
+2026-04-27T21:29:19.060Z info 	[REDUX] Removed store replica 1
+2026-04-27T21:29:19.061Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T21:29:19.061Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 557966ms, emitted 29 times
+2026-04-27T21:29:19.062Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 557707ms, emitted 1 times
+2026-04-27T21:29:19.062Z info 	[IPC] terminal.getTerminals: Unsubscribed after 557958ms, emitted 1 times
+2026-04-27T21:29:19.063Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 557960ms, emitted 0 times
+2026-04-27T21:29:23.519Z info 	Launched as second instance with: {
+  params: {
+    reason: 'already-running',
+    name: 'dashboard',
+    'allow-file-access-from-files': true,
+    lang: 'en-US',
+    'enable-sandbox': true,
+    'secure-schemes': 'app',
+    'fetch-schemes': 'dd',
+    'standard-schemes': 'app',
+    'code-cache-schemes': 'app'
+  },
+  pid: 896,
+  ppid: 11528,
+  NODE_ENV: 'production',
+  isPackaged: true
+}
+2026-04-27T21:29:23.520Z info 	[TRAY] Skipping creating tray menu (already created)
+2026-04-27T21:29:23.521Z info 	[WINDOW] Open app://dd/dashboard {
+  windowOptions: { minHeight: 600, minWidth: 940, width: 1270, height: 720 }
+}
+2026-04-27T21:29:23.521Z info 	[WINDOW] Restoring stored state for window 'dashboard' undefined
+2026-04-27T21:29:23.549Z info 	[WEB-CONTENT] Serving page HTML (69 feature flags)
+2026-04-27T21:29:23.998Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T21:29:23.998Z info 	[REDUX] Added store replica 2
+2026-04-27T21:29:24.000Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T21:29:24.002Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T21:29:24.004Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T21:29:24.004Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:29:24.005Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T21:29:24.157Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T21:29:24.161Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:29:24.163Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T21:29:24.169Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T21:29:24.170Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T21:29:24.270Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T21:29:24.430Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:29:35.702Z info 	[REDUX] Removed store replica 2
+2026-04-27T21:29:35.703Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T21:29:35.703Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 11706ms, emitted 4 times
+2026-04-27T21:29:35.704Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 11702ms, emitted 0 times
+2026-04-27T21:29:35.704Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 11547ms, emitted 1 times
+2026-04-27T21:29:35.705Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T21:29:35.705Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 11701ms, emitted 0 times
+2026-04-27T21:29:35.705Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T21:29:35.705Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 11536ms, emitted 1 times
+2026-04-27T21:29:35.706Z info 	[IPC] terminal.getTerminals: Unsubscribed after 11701ms, emitted 1 times
+2026-04-27T21:29:35.706Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 11543ms, emitted 1 times
+2026-04-27T21:29:42.351Z info 	Launched as second instance with: {
+  params: {
+    reason: 'already-running',
+    name: 'dashboard',
+    'allow-file-access-from-files': true,
+    lang: 'en-US',
+    'enable-sandbox': true,
+    'secure-schemes': 'app',
+    'fetch-schemes': 'dd',
+    'standard-schemes': 'app',
+    'code-cache-schemes': 'app'
+  },
+  pid: 896,
+  ppid: 11528,
+  NODE_ENV: 'production',
+  isPackaged: true
+}
+2026-04-27T21:29:42.351Z info 	[TRAY] Skipping creating tray menu (already created)
+2026-04-27T21:29:42.351Z info 	[WINDOW] Open app://dd/dashboard {
+  windowOptions: { minHeight: 600, minWidth: 940, width: 1270, height: 720 }
+}
+2026-04-27T21:29:42.352Z info 	[WINDOW] Restoring stored state for window 'dashboard' undefined
+2026-04-27T21:29:42.381Z info 	[WEB-CONTENT] Serving page HTML (69 feature flags)
+2026-04-27T21:29:42.813Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T21:29:42.813Z info 	[REDUX] Added store replica 3
+2026-04-27T21:29:42.814Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T21:29:42.817Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T21:29:42.818Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T21:29:42.818Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:29:42.819Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T21:29:42.962Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T21:29:42.963Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:29:42.965Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T21:29:42.968Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T21:29:42.969Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T21:29:43.052Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T21:29:43.222Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:30:10.201Z error 	[VOLUMES] Failed to fetch volume sizes Object [HeadersTimeoutError] {
+  name: 'HeadersTimeoutError',
+  message: 'Headers Timeout Error',
+  stack: 'HeadersTimeoutError: Headers Timeout Error\n' +
+    '    at a.oe [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:135098)\n' +
+    '    at Timeout.i [as _onTimeout] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:642065)\n' +
+    '    at listOnTimeout (node:internal/timers:605:17)\n' +
+    '    at process.processTimers (node:internal/timers:541:7)',
+  code: 'UND_ERR_HEADERS_TIMEOUT'
+}
+2026-04-27T21:30:10.202Z info 	[BUGSNAG] Blocking duplicate error: Headers Timeout Error
+2026-04-27T21:33:05.628Z info 	[SSE] Disconnecting from backend:/registry/state
+2026-04-27T21:33:05.628Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/registry/state (Unknown error)',
+  stack: 'Error: backend:/registry/state (Unknown error)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:122006\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:69497\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:175740)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:78029)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77973\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1329753)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77888)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:373882\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711472)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290368)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Unknown error',
+    stack: 'Error: Unknown error\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:244728\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231185)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231143)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711403)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290287)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:2064879)\n' +
+      '    at d.emit (node:events:508:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1314073)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1311631)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1313378)'
+  }
+}
+2026-04-27T21:33:05.629Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T21:33:05.630Z info 	[SSE] Disconnecting from backend:/wasm/events
+2026-04-27T21:33:05.631Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/wasm/events (socket hang up)',
+  stack: 'Error: backend:/wasm/events (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:122006\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:69497\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:175740)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:78029)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77973\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1329753)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77888)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:373882\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711472)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290368)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:244728\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231185)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231143)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711403)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290287)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:2064879)\n' +
+      '    at d.emit (node:events:508:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1314073)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1311631)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1313962)'
+  }
+}
+2026-04-27T21:33:05.632Z info 	[SSE] Disconnecting from backend:/license/events
+2026-04-27T21:33:05.632Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/license/events (Unknown error)',
+  stack: 'Error: backend:/license/events (Unknown error)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:122006\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:69497\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:175740)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:78029)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77973\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1329753)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77888)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:373882\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711472)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290368)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'Unknown error',
+    stack: 'Error: Unknown error\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:244728\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231185)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231143)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711403)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290287)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:2064879)\n' +
+      '    at d.emit (node:events:508:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1314073)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1311631)\n' +
+      '    at IncomingMessage.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1313378)'
+  }
+}
+2026-04-27T21:33:05.634Z info 	[SSE] Disconnecting from backend:/mutagen/file-shares/stream
+2026-04-27T21:33:05.635Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/mutagen/file-shares/stream (socket hang up)',
+  stack: 'Error: backend:/mutagen/file-shares/stream (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:122006\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:69497\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:175740)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:78029)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77973\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1329753)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77888)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:373882\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711472)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290368)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:244728\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231185)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231143)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711403)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290287)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:2064879)\n' +
+      '    at d.emit (node:events:508:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1314073)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1311631)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1313962)'
+  }
+}
+2026-04-27T21:33:05.635Z info 	[SSE] Disconnecting from backend:/notify/notifications
+2026-04-27T21:33:05.636Z info 	[SSE] Disconnecting from backend:/notify/messagebox/events
+2026-04-27T21:33:05.638Z info 	[SSE] Disconnecting from backend:/install/events
+2026-04-27T21:33:05.638Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/install/events (socket hang up)',
+  stack: 'Error: backend:/install/events (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:122006\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:69497\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:175740)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:78029)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77973\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1329753)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77888)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:373882\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711472)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290368)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:244728\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231185)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231143)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711403)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290287)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:2064879)\n' +
+      '    at d.emit (node:events:508:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1314073)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1311631)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1313962)'
+  }
+}
+2026-04-27T21:33:05.639Z info 	[SSE] Disconnecting from backend:/kubernetes/events
+2026-04-27T21:33:05.639Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/kubernetes/events (socket hang up)',
+  stack: 'Error: backend:/kubernetes/events (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:122006\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:69497\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:175740)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:78029)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77973\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1329753)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77888)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:373882\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711472)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290368)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:244728\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231185)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231143)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711403)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290287)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:2064879)\n' +
+      '    at d.emit (node:events:508:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1314073)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1311631)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1313962)'
+  }
+}
+2026-04-27T21:33:05.640Z info 	[SSE] Disconnecting from backend:/pause/events
+2026-04-27T21:33:05.640Z error 	Object [Error] {
+  name: 'Error',
+  message: 'backend:/pause/events (socket hang up)',
+  stack: 'Error: backend:/pause/events (socket hang up)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:122006\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:69497\n' +
+    '    at u.i [as _subscribe] (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:175740)\n' +
+    '    at u._trySubscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:78029)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77973\n' +
+    '    at i (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1329753)\n' +
+    '    at u.subscribe (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:77888)\n' +
+    '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:373882\n' +
+    '    at i._error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711472)\n' +
+    '    at i.error (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290368)',
+  cause: Object [Error] {
+    name: 'Error',
+    message: 'socket hang up',
+    stack: 'Error: socket hang up\n' +
+      '    at C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:244728\n' +
+      '    at h (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231185)\n' +
+      '    at d (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:8:231143)\n' +
+      '    at i._next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1711403)\n' +
+      '    at i.next (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1290287)\n' +
+      '    at d.t (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:2064879)\n' +
+      '    at d.emit (node:events:508:28)\n' +
+      '    at v (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1314073)\n' +
+      '    at f (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1311631)\n' +
+      '    at ClientRequest.<anonymous> (C:\\Program Files\\Docker\\Docker\\frontend\\resources\\app.asar\\build\\entry-cli.main.js:5:1313962)'
+  }
+}
+2026-04-27T21:33:16.755Z info 	[STARTUP] Launched with: {
+  params: { 'analytics-enabled': true, reason: 'open-tray', name: 'dashboard' },
+  pid: 8396,
+  ppid: 1780,
+  NODE_ENV: 'production',
+  isPackaged: true
+}
+2026-04-27T21:33:16.862Z info 	[STARTUP] Checking backend is running
+2026-04-27T21:33:17.086Z info 	[STARTUP] App version: 4.71.0 (225177)
+2026-04-27T21:33:17.113Z info 	[NETWORK] Creating V1 engine client
+2026-04-27T21:33:17.143Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T21:33:17.145Z info 	[SSE] Connecting to backend:/notify/messagebox/events
+2026-04-27T21:33:17.145Z info 	[SSE] Connecting to backend:/notify/notifications
+2026-04-27T21:33:17.146Z info 	[THEME] Electron nativeTheme: dark
+2026-04-27T21:33:17.146Z info 	[THEME] Fetching Windows theme from registry
+2026-04-27T21:33:17.165Z info 	[SSE] Connecting to backend:/wasm/events
+2026-04-27T21:33:17.166Z info 	[SSE] Connecting to backend:/features/events
+2026-04-27T21:33:17.167Z info 	[SSE] Connecting to backend:/update/events
+2026-04-27T21:33:17.167Z info 	[SSE] Connecting to backend:/mutagen/file-shares/stream
+2026-04-27T21:33:17.168Z info 	[SSE] Connecting to backend:/license/events
+2026-04-27T21:33:17.168Z info 	[SSE] Connecting to backend:/registry/state
+2026-04-27T21:33:17.169Z info 	[SSE] Connecting to backend:/versions/events
+2026-04-27T21:33:17.170Z info 	[SSE] Connecting to backend:/engine/events
+2026-04-27T21:33:17.170Z info 	[SSE] Connecting to backend:/install/events
+2026-04-27T21:33:17.171Z info 	[SSE] Connecting to backend:/kubernetes/events
+2026-04-27T21:33:17.171Z info 	[SSE] Connecting to backend:/pause/events
+2026-04-27T21:33:17.172Z info 	[SSE] Connecting to backend:/clicontext/events
+2026-04-27T21:33:17.220Z info 	application has just finished initializing
+2026-04-27T21:33:17.221Z info 	[WEB-CONTENT] Registering app://
+2026-04-27T21:33:17.227Z info 	[TRAY] Creating tray menu
+2026-04-27T21:33:17.638Z info 	[WINDOW] Open app://dd/dashboard {
+  windowOptions: { minHeight: 600, minWidth: 940, width: 1270, height: 720 }
+}
+2026-04-27T21:33:17.639Z info 	[WINDOW] Restoring stored state for window 'dashboard' undefined
+2026-04-27T21:33:17.725Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:33:17.726Z info 	Host config environment is prod
+2026-04-27T21:33:17.727Z info 	[BUGSNAG] Setting analytics enabled: true
+2026-04-27T21:33:17.729Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:33:17.796Z info 	[WEB-CONTENT] Serving page HTML (69 feature flags)
+2026-04-27T21:33:18.184Z error 	[THEME] Theme fetch is slow; emitting failed action
+2026-04-27T21:33:18.251Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T21:33:18.252Z info 	[REDUX] Added store replica 1
+2026-04-27T21:33:18.254Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T21:33:18.255Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T21:33:18.256Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T21:33:18.257Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:33:18.257Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T21:33:18.285Z info 	[TRAY] Determined initial tray icon
+2026-04-27T21:33:18.426Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T21:33:18.427Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:33:18.429Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T21:33:18.433Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T21:33:18.434Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T21:33:18.514Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T21:33:18.718Z info 	[THEME] Got Windows theme from registry: dark
+2026-04-27T21:33:37.727Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:33:38.827Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:33:49.513Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 31084ms, emitted 1 times
+2026-04-27T21:33:49.513Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 31087ms, emitted 1 times
+2026-04-27T21:33:49.593Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T21:33:49.595Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T21:33:49.606Z info 	[IPC] getCloudAccounts
+2026-04-27T21:33:55.619Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 6024ms, emitted 1 times
+2026-04-27T21:33:55.620Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 6027ms, emitted 1 times
+2026-04-27T21:33:55.623Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T21:33:55.624Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T21:33:58.909Z info 	[SSE] Disconnecting from backend:/volume/backup
+2026-04-27T21:33:58.909Z info 	[IPC] volumes.listScheduledVolumeBackups: Unsubscribed after 40476ms, emitted 1 times
+2026-04-27T21:33:58.910Z info 	[IPC] terminal.getTerminals: Unsubscribed after 40653ms, emitted 1 times
+2026-04-27T21:33:58.910Z info 	[IPC] window.windowIsMaximized: Unsubscribed after 3287ms, emitted 1 times
+2026-04-27T21:33:58.911Z info 	[REDUX] Removed store replica 1
+2026-04-27T21:33:58.912Z info 	[SSE] Disconnecting from backend:/stats
+2026-04-27T21:33:58.912Z info 	[IPC] redux.subscribeToUpstreamActions$: Unsubscribed after 40661ms, emitted 15 times
+2026-04-27T21:33:58.912Z info 	[IPC] navigation.getNavigationRequests$: Unsubscribed after 40657ms, emitted 0 times
+2026-04-27T21:33:58.913Z info 	[SSE] Disconnecting from extensionsManager:/events
+2026-04-27T21:33:58.913Z info 	[IPC] extensions.extensionsBackendEvents: Unsubscribed after 40657ms, emitted 2 times
+2026-04-27T21:33:58.913Z info 	[IPC] window.windowIsFullscreen: Unsubscribed after 3289ms, emitted 1 times
+2026-04-27T21:34:11.037Z info 	Launched as second instance with: {
+  params: {
+    reason: 'already-running',
+    name: 'dashboard',
+    'allow-file-access-from-files': true,
+    lang: 'en-US',
+    'enable-sandbox': true,
+    'secure-schemes': 'app',
+    'fetch-schemes': 'dd',
+    'standard-schemes': 'app',
+    'code-cache-schemes': 'app'
+  },
+  pid: 8396,
+  ppid: 1780,
+  NODE_ENV: 'production',
+  isPackaged: true
+}
+2026-04-27T21:34:11.038Z info 	[TRAY] Skipping creating tray menu (already created)
+2026-04-27T21:34:11.038Z info 	[WINDOW] Open app://dd/dashboard {
+  windowOptions: { minHeight: 600, minWidth: 940, width: 1270, height: 720 }
+}
+2026-04-27T21:34:11.038Z info 	[WINDOW] Restoring stored state for window 'dashboard' undefined
+2026-04-27T21:34:11.065Z info 	[WEB-CONTENT] Serving page HTML (69 feature flags)
+2026-04-27T21:34:11.625Z info 	[IPC] redux.subscribeToUpstreamActions$: Started streaming ([{}])
+2026-04-27T21:34:11.626Z info 	[REDUX] Added store replica 2
+2026-04-27T21:34:11.627Z info 	[SSE] Connecting to backend:/stats
+2026-04-27T21:34:11.634Z info 	[IPC] navigation.getNavigationRequests$: Started streaming ([{}])
+2026-04-27T21:34:11.635Z info 	[IPC] extensions.extensionsBackendEvents: Started streaming ([{}])
+2026-04-27T21:34:11.636Z info 	[SSE] Connecting to extensionsManager:/events
+2026-04-27T21:34:11.636Z info 	[IPC] terminal.getTerminals: Started streaming ([{}])
+2026-04-27T21:34:11.786Z info 	[IPC] window.windowIsMaximized: Started streaming ([{}])
+2026-04-27T21:34:11.787Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace
+2026-04-27T21:34:11.789Z info 	[IPC] window.windowIsFullscreen: Started streaming ([{}])
+2026-04-27T21:34:11.793Z info 	[IPC] volumes.listScheduledVolumeBackups: Started streaming ([{}])
+2026-04-27T21:34:11.793Z info 	[SSE] Connecting to backend:/volume/backup
+2026-04-27T21:34:11.885Z info 	[HTTPS-INTERCEPT] Redirecting https://hub.docker-desktop/v2/users/amandar4is/ to dd://hub/v2/users/amandar4is/
+2026-04-27T21:34:12.048Z info 	[HTTPS-INTERCEPT] Redirecting https://extensions.docker-desktop/marketplace to dd://extensions/marketplace

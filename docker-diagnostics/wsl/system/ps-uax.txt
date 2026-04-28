@@ -1,0 +1,16 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  1.0  0.0   3120  2304 hvc0     Sl+  18:35   0:00 /init
+root         2  7.0  0.0   2972  2048 hvc0     S+   18:35   0:00 /init
+root         3  0.5  0.0   3120  1664 hvc0     Sl+  18:35   0:00 /init
+root         9  3.0  0.1 118144  7552 hvc0     Sl+  18:35   0:00 /usr/bin/WSLGd
+wslg        14 33.0  0.4 168372 33408 hvc0     Rl+  18:35   0:00 /usr/bin/weston --backend=rdp-backend.so --modules=wslgd-notify.so --xwayland --socket=wayland-0 --shell=rdprail-shell.so --log=/mnt/wslg/weston.log --logger-scopes=log,rdp-backend,rdprail-shell
+wslg        18  0.0  0.0   2988  1920 hvc0     S+   18:35   0:00 /init /mnt/c/Program Files/WSL/msrdc.exe msrdc.exe /wslg /silent /v:E23E8297-3721-48A6-99BC-770F5EBD5831 /hvsocketserviceid:00000001-FACB-11E6-BD58-64006A7986D3 /plugin:WSLDVC_PACKAGE /wslgsharedmemorypath:WSL\E23E8297-3721-48A6-99BC-770F5EBD5831\wslg C:\Program Files\WSL\wslg.rdp
+wslg        19  2.0  0.0   9616  4096 hvc0     S+   18:35   0:00 /usr/bin/dbus-daemon --syslog --nofork --nopidfile --system
+wslg        20  7.0  0.1 153224  7680 hvc0     Sl+  18:35   0:00 /usr/bin/pulseaudio --log-time=true --disallow-exit=true --exit-idle-time=-1 --load=module-rdp-sink sink_name=RDPSink --load=module-rdp-source source_name=RDPSource --load=module-native-protocol-unix socket=/mnt/wslg/PulseServer auth-anonymous=true --log-target=newfile:/mnt/wslg/pulseaudio.log
+wslg        24  0.0  0.0   9484  1924 ?        Ss   18:35   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 8 --print-address 10 --session
+wslg        26 12.0  0.3 156304 23296 ?        Ds   18:35   0:00 /usr/bin/Xwayland :0 -rootless -core -listen 37 -wm 38 -terminate -nolisten local -ac
+root        29  0.0  0.0   3120  1792 hvc0     Sl+  18:35   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root        32  0.0  0.0   3148   768 ?        Ss   18:35   0:00 /init
+root        33  0.0  0.0   3136  1152 ?        S    18:35   0:00 /init
+root        34  0.0  0.0   3164  1284 ?        S    18:35   0:00 /init
+wslg        36  4.0  0.0   6404  2176 pts/1    Rs+  18:35   0:00 ps uax

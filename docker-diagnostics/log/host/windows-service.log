@@ -1,0 +1,3 @@
+#TYPE System.Diagnostics.EventLogEntry#Application/DockerService/0
+"EventID","MachineName","Data","Index","Category","CategoryNumber","EntryType","Message","Source","ReplacementStrings","InstanceId","TimeGenerated","TimeWritten","UserName","Site","Container"
+"0","<HOST>","System.Byte[]","39433","(0)","0","Information","Serviço parado com êxito.","DockerService","System.String[]","0","27/04/2026 18:33:24","27/04/2026 18:33:24",,,

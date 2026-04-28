@@ -1,0 +1,45 @@
+-------------------------------------------------------------------------------->8
+Version: 4.66.1 (222799)
+Sha1: 
+Started on: 2026/03/27 15:35:05.818
+Resources: C:\Program Files\Docker\Docker\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 26200
+BuildLabName: 26100.1.amd64fre.ge_release.240331-1435
+File: C:\ProgramData\DockerDesktop\install-cli-log-admin.txt
+CommandLine: "C:\Program Files\Docker\Docker\InstallerCli.exe" -i
+You can send feedback, including this log file, at https://dockr.ly/desktop-feedback
+[2026-03-27T15:35:05.983480100Z][Installer][I] Preparing...
+[2026-03-27T15:35:06.049680600Z][HyperVManager][I] Destroy
+[2026-03-27T15:35:06.194634700Z][HyperVManager][W] Hyper-V is not installed on the machine
+[2026-03-27T15:35:36.256612400Z][Installer][W] Could not unregister distro docker-desktop: System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Docker.InstallerCli.Program.TryToUnregisterWslDistro(String name) na C:\workspaces\main-merges\src\github.com\docker\pinata\win\src\Docker.InstallerCli\Program.cs:linha 722
+[2026-03-27T15:35:36.256612400Z][Installer][I] Prepare completed successfully
+[2026-03-27T15:35:36.256612400Z][Installer][I] Recreating Docker CLI plugins directory
+[2026-03-27T15:35:36.257618500Z][Installer][I] Directory C:\Program Files\Docker\cli-plugins does not exist
+[2026-03-27T15:35:36.259623900Z][Installer][I] Installing Docker CLI plugins
+[2026-03-27T15:35:36.263124200Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-agent.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-agent.exe
+[2026-03-27T15:35:36.264128500Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-ai.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-ai.exe
+[2026-03-27T15:35:36.265131400Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-buildx.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-buildx.exe
+[2026-03-27T15:35:36.265131400Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-compose.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-compose.exe
+[2026-03-27T15:35:36.266133900Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-debug.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-debug.exe
+[2026-03-27T15:35:36.266736300Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-desktop.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-desktop.exe
+[2026-03-27T15:35:36.266736300Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-dhi.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-dhi.exe
+[2026-03-27T15:35:36.267770900Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-extension.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-extension.exe
+[2026-03-27T15:35:36.267770900Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-init.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-init.exe
+[2026-03-27T15:35:36.268776400Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-mcp.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-mcp.exe
+[2026-03-27T15:35:36.268776400Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-model.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-model.exe
+[2026-03-27T15:35:36.268776400Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-offload.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-offload.exe
+[2026-03-27T15:35:36.269780500Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-pass.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-pass.exe
+[2026-03-27T15:35:36.269780500Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-sandbox.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-sandbox.exe
+[2026-03-27T15:35:36.270784500Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-sbom.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-sbom.exe
+[2026-03-27T15:35:36.270784500Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\cli-plugins\docker-scout.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-scout.exe
+[2026-03-27T15:35:36.272801000Z][SymlinkUtils][I] Deleting folder <HOME>\.docker\modules\tmp-delete\f964c0ea-6aae-4f3c-b6b5-e1dd6a649436
+[2026-03-27T15:35:36.272801000Z][SymlinkUtils][I] Deleting folder <HOME>\.docker\modules\tmp-delete
+[2026-03-27T15:35:36.272801000Z][Installer][I] Re-linking docker-compose.exe
+[2026-03-27T15:35:36.272801000Z][SymlinkUtils][I] Creating hardlink C:\Program Files\Docker\Docker\resources\bin\docker-compose.exe -> C:\Program Files\Docker\Docker\resources\cli-plugins\docker-compose.exe
+[2026-03-27T15:35:36.483760200Z][Installer][I] Setting permissions
+[2026-03-27T15:35:36.487249300Z][Installer][I] Granting ReadAndExecute on C:\ProgramData\DockerDesktop
+[2026-03-27T15:35:36.487249300Z][Installer][I] Permissions updated

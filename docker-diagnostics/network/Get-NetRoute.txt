@@ -1,0 +1,1040 @@
+
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 24
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <??8<??8<??8<??9=<55<>55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 255.255.255.255/32
+InterfaceAlias        : vEthernet (WSL (Hyper-V firewall))
+InterfaceIndex        : 24
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 13
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <??8<??8<??8<??9=<55;=55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 255.255.255.255/32
+InterfaceAlias        : vEthernet (Default Switch)
+InterfaceIndex        : 13
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <??8<??8<??8<??9=<55B55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 255.255.255.255/32
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 1
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <??8<??8<??8<??9=<55;55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 255.255.255.255/32
+InterfaceAlias        : Loopback Pseudo-Interface 1
+InterfaceIndex        : 1
+InterfaceMetric       : 75
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 24
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <<>8:8:8:9>55<>55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 224.0.0.0/4
+InterfaceAlias        : vEthernet (WSL (Hyper-V firewall))
+InterfaceIndex        : 24
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 13
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <<>8:8:8:9>55;=55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 224.0.0.0/4
+InterfaceAlias        : vEthernet (Default Switch)
+InterfaceIndex        : 13
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <<>8:8:8:9>55B55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 224.0.0.0/4
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 1
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <<>8:8:8:9>55;55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 224.0.0.0/4
+InterfaceAlias        : Loopback Pseudo-Interface 1
+InterfaceIndex        : 1
+InterfaceMetric       : 75
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;C<8;@B8;8<??9=<55B55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 192.168.1.255/32
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;C<8;@B8;8@>9=<55B55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 192.168.1.64/32
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;C<8;@B8;8:9<>55B55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 192.168.1.0/24
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 24
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;A<8<C8>A8<??9=<55<>55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 172.29.47.255/32
+InterfaceAlias        : vEthernet (WSL (Hyper-V firewall))
+InterfaceIndex        : 24
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 24
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;A<8<C8=<8;9=<55<>55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 172.29.32.1/32
+InterfaceAlias        : vEthernet (WSL (Hyper-V firewall))
+InterfaceIndex        : 24
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 24
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;A<8<C8=<8:9<:55<>55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 172.29.32.0/20
+InterfaceAlias        : vEthernet (WSL (Hyper-V firewall))
+InterfaceIndex        : 24
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 13
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;A<8;B8<=C8<??9=<55;=55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 172.18.239.255/32
+InterfaceAlias        : vEthernet (Default Switch)
+InterfaceIndex        : 13
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 13
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;A<8;B8<<>8;9=<55;=55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 172.18.224.1/32
+InterfaceAlias        : vEthernet (Default Switch)
+InterfaceIndex        : 13
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 13
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;A<8;B8<<>8:9<:55;=55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 172.18.224.0/20
+InterfaceAlias        : vEthernet (Default Switch)
+InterfaceIndex        : 13
+InterfaceMetric       : 5000
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 1
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;<A8<??8<??8<??9=<55;55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 127.255.255.255/32
+InterfaceAlias        : Loopback Pseudo-Interface 1
+InterfaceIndex        : 1
+InterfaceMetric       : 75
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 1
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;<A8:8:8;9=<55;55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 127.0.0.1/32
+InterfaceAlias        : Loopback Pseudo-Interface 1
+InterfaceIndex        : 1
+InterfaceMetric       : 75
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 1
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : ;<A8:8:8:9B55;55:8:8:8:55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 127.0.0.0/8
+InterfaceAlias        : Loopback Pseudo-Interface 1
+InterfaceIndex        : 1
+InterfaceMetric       : 75
+NextHop               : 0.0.0.0
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : NetMgmt
+Store                 : ActiveStore
+AddressFamily         : IPv4
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : :8:8:8:9:55B55;C<8;@B8;8<?>55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 0
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 0.0.0.0/0
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : 192.168.1.254
+PreferredLifetime     : 01:00:00
+ValidLifetime         : 01:00:00
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 24
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : pp::DD9B55<>55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : ff00::/8
+InterfaceAlias        : vEthernet (WSL (Hyper-V firewall))
+InterfaceIndex        : 24
+InterfaceMetric       : 5000
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 13
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : pp::DD9B55;=55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : ff00::/8
+InterfaceAlias        : vEthernet (Default Switch)
+InterfaceIndex        : 13
+InterfaceMetric       : 5000
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : pp::DD9B55B55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : ff00::/8
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 1
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : pp::DD9B55;55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : ff00::/8
+InterfaceAlias        : Loopback Pseudo-Interface 1
+InterfaceIndex        : 1
+InterfaceMetric       : 75
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 13
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : poB:DDC<>oDCC;lDBl@:Dlkl>9;<B55;=55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : fe80::924e:991b:8b60:bab4/128
+InterfaceAlias        : vEthernet (Default Switch)
+InterfaceIndex        : 13
+InterfaceMetric       : 5000
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : poB:DD@mA@D<p?CDC@B=Dn<;n9;<B55B55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : fe80::6c76:2f59:9683:d21d/128
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 24
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : poB:DD>@k=Dmm=?DoCB;Do@@;9;<B55<>55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : fe80::46a3:cc35:e981:e661/128
+InterfaceAlias        : vEthernet (WSL (Hyper-V firewall))
+InterfaceIndex        : 24
+InterfaceMetric       : 5000
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 24
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : poB:DD9@>55<>55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : fe80::/64
+InterfaceAlias        : vEthernet (WSL (Hyper-V firewall))
+InterfaceIndex        : 24
+InterfaceMetric       : 5000
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 13
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : poB:DD9@>55;=55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : fe80::/64
+InterfaceAlias        : vEthernet (Default Switch)
+InterfaceIndex        : 13
+InterfaceMetric       : 5000
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : poB:DD9@>55B55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : fe80::/64
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <B:>Dn>;Do:?;DB;::Dl@C<DB@n;DoB;@DnC=>9;<B55B55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 2804:d41:e051:8100:b692:86d1:e816:d934/128
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <B:>Dn>;Do:?;DB;::DA;nlDABlBDmkpkDA<<B9;<B55B55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 2804:d41:e051:8100:71db:78b8:cafa:7228/128
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : NetMgmt
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <B:>Dn>;Do:?;DB;::DD9@>55B55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 4096
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 2804:d41:e051:8100::/64
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : ::
+PreferredLifetime     : 01:23:48
+ValidLifetime         : 01:53:48
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : NetMgmt
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : <B:>Dn>;Do:?;DB;::DD9?@55B55poB:DD;55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 16
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : 2804:d41:e051:8100::/56
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : fe80::1
+PreferredLifetime     : 01:23:48
+ValidLifetime         : 01:53:48
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : Local
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 1
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : DD;9;<B55;55DD55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 256
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : ::1/128
+InterfaceAlias        : Loopback Pseudo-Interface 1
+InterfaceIndex        : 1
+InterfaceMetric       : 75
+NextHop               : ::
+PreferredLifetime     : 10675199.02:48:05.4775807
+ValidLifetime         : 10675199.02:48:05.4775807
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Publish               : No
+Protocol              : NetMgmt
+Store                 : ActiveStore
+AddressFamily         : IPv6
+State                 : Alive
+ifIndex               : 8
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : DD9:55B55poB:DD;55;
+AdminDistance         : 
+DestinationAddress    : 
+IsStatic              : 
+RouteMetric           : 4096
+TypeOfRoute           : 3
+CompartmentId         : 1
+DestinationPrefix     : ::/0
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 8
+InterfaceMetric       : 25
+NextHop               : fe80::1
+PreferredLifetime     : 00:16:18
+ValidLifetime         : 00:23:48
+PSComputerName        : 
+CimClass              : ROOT/StandardCimv2:MSFT_NetRoute
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+

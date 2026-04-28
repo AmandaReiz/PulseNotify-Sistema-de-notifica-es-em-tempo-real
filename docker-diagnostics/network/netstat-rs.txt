@@ -1,0 +1,181 @@
+
+Estat¡sticas de IPv4
+
+  Pacotes recebidos                  = 2703
+  Erros de cabe‡alho recebidos       = 0
+  Erros de endere‡o recebidos        = 0
+  Datagramas encaminhados            = 0
+  Protocolos desconhecidos recebidos = 0
+  Pacotes recebidos descartados      = 53
+  Pacotes recebidos entregues        = 3095
+  Solicita‡äes de sa¡da              = 17157
+  Descartes de roteamento            = 0
+  Pacotes de sa¡da descartados       = 0
+  Pacote de sa¡da sem rota           = 5
+  Reagrupamento necess rio           = 0
+  Reagrupamento bem-sucedido         = 0
+  Falhas de reagrupamento            = 0
+  Datagramas fragmentados c/ ˆxito   = 0
+  Falhas/ fragmenta‡Æo de datagramas = 0
+  Fragmentos criados                 = 0
+
+Estat¡sticas de IPv6
+
+  Pacotes recebidos                  = 133760
+  Erros de cabe‡alho recebidos       = 0
+  Erros de endere‡o recebidos        = 20
+  Datagramas encaminhados            = 0
+  Protocolos desconhecidos recebidos = 0
+  Pacotes recebidos descartados      = 37
+  Pacotes recebidos entregues        = 134219
+  Solicita‡äes de sa¡da              = 40405
+  Descartes de roteamento            = 0
+  Pacotes de sa¡da descartados       = 0
+  Pacote de sa¡da sem rota           = 0
+  Reagrupamento necess rio           = 0
+  Reagrupamento bem-sucedido         = 0
+  Falhas de reagrupamento            = 0
+  Datagramas fragmentados c/ ˆxito   = 0
+  Falhas/ fragmenta‡Æo de datagramas = 0
+  Fragmentos criados                 = 0
+
+Estat¡sticas de ICMPv4
+
+                                     Recebidos   Enviados
+  Mensagens                          4           6         
+  Erros                              0           0         
+  Destino inating¡vel                4           6         
+  Tempo excedido                     0           0         
+  Problemas de parƒmetro             0           0         
+  Retardamentos de origem            0           0         
+  Redirecionamentos                  0           0         
+  Respostas de eco                   0           0         
+  Echos                              0           0         
+  Carimbos de data/hora              0           0         
+  Respostas de carimbos de data/hora 0           0         
+  M scaras de endere‡o               0           0         
+  Respostas m scaras end.            0           0         
+  Solicita‡äes do roteador   0           0         
+  An£ncios de rotas         0           0         
+
+Estat¡sticas de ICMPv6
+
+                                     Recebidos   Enviados
+  Mensagens                          165         88        
+  Erros                              0           0         
+  Destino inating¡vel                0           6         
+  Pacote muito extenso      0           0         
+  Tempo excedido                     0           0         
+  Problemas de parƒmetro             0           0         
+  Echos                              0           0         
+  Respostas de eco                   0           0         
+  Consultas MLD             35          0         
+  Relat¢rios MLD            73          0         
+  A‡äes MLD                 0           0         
+  Solicita‡äes do roteador   0           14        
+  An£ncios de rotas         3           0         
+  Solicita‡äes do vizinho    50          11        
+  Notifica‡äes do vizinho   4           57        
+  Redirecionamentos                  0           0         
+  Renumera‡äes do roteador  0           0         
+
+Estat¡sticas de TCP para IPv4
+
+  Abertos ativos                      = 249
+  Abertos passivos                    = 9
+  Falha em tentativas de conexÆo      = 153
+  Conexäes redefinidas                = 14
+  Conexäes atuais                     = 20
+  Segmentos recebidos                 = 4671
+  Segmentos enviados                  = 3985
+  Segmentos retransmitidos            = 566
+
+Estat¡sticas de TCP para IPv6
+
+  Abertos ativos                      = 989
+  Abertos passivos                    = 0
+  Falha em tentativas de conexÆo      = 271
+  Conexäes redefinidas                = 44
+  Conexäes atuais                     = 31
+  Segmentos recebidos                 = 17020
+  Segmentos enviados                  = 14649
+  Segmentos retransmitidos            = 905
+
+Estat¡sticas de UDP para IPv4
+
+  Datagramas recebidos    = 14621
+  Nenhuma porta           = 29
+  Erros de recebimento    = 0
+  Datagramas enviados     = 14533
+
+Estat¡sticas de UDP para IPv6
+
+  Datagramas recebidos    = 117428
+  Nenhuma porta           = 8
+  Erros de recebimento    = 0
+  Datagramas enviados     = 24642
+===========================================================================
+Lista de interfaces
+  8...b4 2e 99 e7 e1 bc ......Realtek PCIe GbE Family Controller
+  1...........................Software Loopback Interface 1
+ 13...00 15 5d 96 8c 50 ......Hyper-V Virtual Ethernet Adapter
+ 24...00 15 5d d0 14 4f ......Hyper-V Virtual Ethernet Adapter #2
+===========================================================================
+
+Tabela de rotas IPv4
+===========================================================================
+Rotas ativas:
+Endere‡o de rede          M scara   Ender. gateway       Interface   Custo
+          0.0.0.0          0.0.0.0    192.168.1.254     192.168.1.64     25
+        127.0.0.0        255.0.0.0      No v¡nculo         127.0.0.1    331
+        127.0.0.1  255.255.255.255      No v¡nculo         127.0.0.1    331
+  127.255.255.255  255.255.255.255      No v¡nculo         127.0.0.1    331
+     172.18.224.0    255.255.240.0      No v¡nculo      172.18.224.1   5256
+     172.18.224.1  255.255.255.255      No v¡nculo      172.18.224.1   5256
+   172.18.239.255  255.255.255.255      No v¡nculo      172.18.224.1   5256
+      172.29.32.0    255.255.240.0      No v¡nculo       172.29.32.1   5256
+      172.29.32.1  255.255.255.255      No v¡nculo       172.29.32.1   5256
+    172.29.47.255  255.255.255.255      No v¡nculo       172.29.32.1   5256
+      192.168.1.0    255.255.255.0      No v¡nculo      192.168.1.64    281
+     192.168.1.64  255.255.255.255      No v¡nculo      192.168.1.64    281
+    192.168.1.255  255.255.255.255      No v¡nculo      192.168.1.64    281
+        224.0.0.0        240.0.0.0      No v¡nculo         127.0.0.1    331
+        224.0.0.0        240.0.0.0      No v¡nculo      192.168.1.64    281
+        224.0.0.0        240.0.0.0      No v¡nculo      172.18.224.1   5256
+        224.0.0.0        240.0.0.0      No v¡nculo       172.29.32.1   5256
+  255.255.255.255  255.255.255.255      No v¡nculo         127.0.0.1    331
+  255.255.255.255  255.255.255.255      No v¡nculo      192.168.1.64    281
+  255.255.255.255  255.255.255.255      No v¡nculo      172.18.224.1   5256
+  255.255.255.255  255.255.255.255      No v¡nculo       172.29.32.1   5256
+===========================================================================
+Rotas persistentes:
+  Nenhuma
+
+Tabela de rotas IPv6
+===========================================================================
+Rotas ativas:
+ Se destino de rede de m‚trica      Gateway
+  8   4121 ::/0                     fe80::1
+  1    331 ::1/128                  No v¡nculo
+  8     41 2804:d41:e051:8100::/56  fe80::1
+  8   4121 2804:d41:e051:8100::/64  No v¡nculo
+  8    281 2804:d41:e051:8100:71db:78b8:cafa:7228/128
+                                    No v¡nculo
+  8    281 2804:d41:e051:8100:b692:86d1:e816:d934/128
+                                    No v¡nculo
+  8    281 fe80::/64                No v¡nculo
+ 13   5256 fe80::/64                No v¡nculo
+ 24   5256 fe80::/64                No v¡nculo
+ 24   5256 fe80::46a3:cc35:e981:e661/128
+                                    No v¡nculo
+  8    281 fe80::6c76:2f59:9683:d21d/128
+                                    No v¡nculo
+ 13   5256 fe80::924e:991b:8b60:bab4/128
+                                    No v¡nculo
+  1    331 ff00::/8                 No v¡nculo
+  8    281 ff00::/8                 No v¡nculo
+ 13   5256 ff00::/8                 No v¡nculo
+ 24   5256 ff00::/8                 No v¡nculo
+===========================================================================
+Rotas persistentes:
+  Nenhuma

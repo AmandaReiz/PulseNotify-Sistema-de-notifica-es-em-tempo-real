@@ -1,0 +1,1 @@
+docker info (timeout 5s) -> context deadline exceeded

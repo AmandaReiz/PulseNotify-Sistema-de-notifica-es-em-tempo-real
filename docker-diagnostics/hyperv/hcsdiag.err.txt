@@ -1,0 +1,2 @@
+
+Privilégios insuficientes. Somente administradores ou usuários que são membros do grupo de usuários Administradores do Hyper-V têm permissão para acessar máquinas virtuais ou contêineres. Para se adicionar ao grupo de usuários Administradores do Hyper-V, consulte https://aka.ms/hcsadmin para obter mais informações.

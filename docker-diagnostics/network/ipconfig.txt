@@ -1,0 +1,66 @@
+
+Configuraá∆o de IP do Windows
+
+
+==============================================================================
+Informaá‰es de Rede para o Compartimento 1 (ATIVO)
+==============================================================================
+   Nome do host. . . . . . . . . . . . . . . . : <HOST>
+   Sufixo DNS prim†rio . . . . . . . . . . . . : 
+   Tipo de n¢. . . . . . . . . . . . . . . . . : h°brido
+   Roteamento de IP ativado. . . . . . . . . . : n∆o
+   Proxy WINS ativado. . . . . . . . . . . . . : n∆o
+
+Adaptador Ethernet Ethernet:
+
+   Sufixo DNS espec°fico de conex∆o. . . . . . : 
+   Descriá∆o . . . . . . . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Endereáo F°sico . . . . . . . . . . . . . . : B4-2E-99-E7-E1-BC
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configuraá∆o Autom†tica Habilitada. . . . . : Sim
+   Endereáo IPv6 . . . . . . . . . . : 2804:d41:e051:8100:b692:86d1:e816:d934(Preferencial) 
+   Endereáo IPv6 Tempor†rio. . . . . . . . : 2804:d41:e051:8100:71db:78b8:cafa:7228(Preferencial) 
+   Endereáo IPv6 de link local . . . . . . . . : fe80::6c76:2f59:9683:d21d%8(Preferencial) 
+   Endereáo IPv4. . . . . . . .  . . . . . . . : 192.168.1.64(Preferencial) 
+   M†scara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   Concess∆o Obtida. . . . . . . . . . . . . . : segunda-feira, 27 de abril de 2026 18:18:22
+   Concess∆o Expira. . . . . . . . . . . . . . : segunda-feira, 27 de abril de 2026 19:18:22
+   Gateway Padr∆o. . . . . . . . . . . . . . . : fe80::1%8
+                                                 192.168.1.254
+   Servidor DHCP . . . . . . . . . . . . . . . : 192.168.1.254
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 112471705
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 00-01-00-01-30-D8-74-8E-B4-2E-99-E7-E1-BC
+   Servidores DNS. . . . . . . . . . . . . . . : fe80::1%8
+                                                 192.168.1.254
+                                                 fe80::1%8
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+
+Adaptador Ethernet vEthernet (Default Switch):
+
+   Sufixo DNS espec°fico de conex∆o. . . . . . : 
+   Descriá∆o . . . . . . . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter
+   Endereáo F°sico . . . . . . . . . . . . . . : 00-15-5D-96-8C-50
+   DHCP Habilitado . . . . . . . . . . . . . . : N∆o
+   Configuraá∆o Autom†tica Habilitada. . . . . : Sim
+   Endereáo IPv6 de link local . . . . . . . . : fe80::924e:991b:8b60:bab4%13(Preferencial) 
+   Endereáo IPv4. . . . . . . .  . . . . . . . : 172.18.224.1(Preferencial) 
+   M†scara de Sub-rede . . . . . . . . . . . . : 255.255.240.0
+   Gateway Padr∆o. . . . . . . . . . . . . . . : 
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 218109277
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 00-01-00-01-30-D8-74-8E-B4-2E-99-E7-E1-BC
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+
+Adaptador Ethernet vEthernet (WSL (Hyper-V firewall)):
+
+   Sufixo DNS espec°fico de conex∆o. . . . . . : 
+   Descriá∆o . . . . . . . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #2
+   Endereáo F°sico . . . . . . . . . . . . . . : 00-15-5D-D0-14-4F
+   DHCP Habilitado . . . . . . . . . . . . . . : N∆o
+   Configuraá∆o Autom†tica Habilitada. . . . . : Sim
+   Endereáo IPv6 de link local . . . . . . . . : fe80::46a3:cc35:e981:e661%24(Preferencial) 
+   Endereáo IPv4. . . . . . . .  . . . . . . . : 172.29.32.1(Preferencial) 
+   M†scara de Sub-rede . . . . . . . . . . . . : 255.255.240.0
+   Gateway Padr∆o. . . . . . . . . . . . . . . : 
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 402658653
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 00-01-00-01-30-D8-74-8E-B4-2E-99-E7-E1-BC
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado

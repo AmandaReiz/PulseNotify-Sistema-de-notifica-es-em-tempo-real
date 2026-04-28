@@ -1,0 +1,11 @@
+
+
+SystemStartOptions :  NOEXECUTE=OPTIN  NUMPROC=4  HYPERVISORLAUNCHTYPE=AUTO  FVEBOOT=2125824  NOVGA
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet
+PSChildName        : Control
+PSDrive            : HKLM
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+

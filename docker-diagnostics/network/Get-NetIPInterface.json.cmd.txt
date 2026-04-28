@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ Import-Module NetTCPIP; Get-NetIPInterface | Select-Object -ExcludeProperty Cim* -Property *| ConvertTo-Json }

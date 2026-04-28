@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------->8
+[2026-04-27T12:57:13.885805700Z][Docker Desktop Updater-222799 (225177).exe.installer] starting, console mode: true
+[2026-04-27T12:57:13.889965800Z][Docker Desktop Updater-222799 (225177).exe.installer] extracting "7zip" to "C:\\Users\\USURIO~2\\AppData\\Local\\Temp\\DockerDesktopInstallers\\1777294633888887800\\7zr.exe"
+[2026-04-27T12:57:13.902418300Z][Docker Desktop Updater-222799 (225177).exe.installer] disk space check for d4w extraction: need 280 MiB, 83157 MiB free
+[2026-04-27T12:57:13.903490000Z][Docker Desktop Updater-222799 (225177).exe.installer] extracting "DockerDesktop" to "C:\\Users\\USURIO~2\\AppData\\Local\\Temp\\DockerDesktopInstallers\\1777294633888887800\\DockerDesktop.d4w"
+[2026-04-27T12:57:17.183808300Z][Docker Desktop Updater-222799 (225177).exe.installer] disk space check for install skipped: 82896 MiB free (above 5120 MiB threshold)
+[2026-04-27T12:57:17.183808300Z][Docker Desktop Updater-222799 (225177).exe.installer] extracting "launcher" to "C:\\Users\\USURIO~2\\AppData\\Local\\Temp\\DockerDesktopInstallers\\1777294633888887800\\Docker Desktop Installer.exe"
+[2026-04-27T12:57:17.241187500Z][Docker Desktop Updater-222799 (225177).exe.installer] waiting for installer to finish
+[2026-04-27T12:57:17.241187500Z][Docker Desktop Updater-222799 (225177).exe.installer] running "C:\\Users\\USURIO~2\\AppData\\Local\\Temp\\DockerDesktopInstallers\\1777294633888887800\\Docker Desktop Installer.exe" [install -package C:\Users\USURIO~2\AppData\Local\Temp\DockerDesktopInstallers\1777294633888887800\DockerDesktop.d4w --auto-update --confirm --auto-close-and-start-app]
+[2026-04-27T12:59:56.406427500Z][Docker Desktop Updater-222799 (225177).exe.installer] removed C:\Users\USURIO~2\AppData\Local\Temp\DockerDesktopInstallers\1777294633888887800

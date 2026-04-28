@@ -1,0 +1,430 @@
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              3 InitShutdown                                                         
+------        31/12/1600     22:00              4 lsass                                                                
+------        31/12/1600     22:00              3 ntsvcs                                                               
+
+
+    Diretório: \\.\pipe\Winsock2
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 Winsock2\CatalogChangeListener-468-0                                 
+------        31/12/1600     22:00              1 Winsock2\CatalogChangeListener-570-0                                 
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              3 epmapper                                                             
+
+
+    Diretório: \\.\pipe\Winsock2
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 Winsock2\CatalogChangeListener-200-0                                 
+------        31/12/1600     22:00              1 Winsock2\CatalogChangeListener-5a4-0                                 
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              3 LSM_API_service                                                      
+------        31/12/1600     22:00              1 ExtEventPipe_Service                                                 
+------        31/12/1600     22:00              3 eventlog                                                             
+
+
+    Diretório: \\.\pipe\Winsock2
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 Winsock2\CatalogChangeListener-930-0                                 
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              3 atsvc                                                                
+
+
+    Diretório: \\.\pipe\Winsock2
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 Winsock2\CatalogChangeListener-aa0-0                                 
+------        31/12/1600     22:00              1 Winsock2\CatalogChangeListener-dd4-0                                 
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              4 wkssvc                                                               
+------        31/12/1600     22:00              3 trkwks                                                               
+------        31/12/1600     22:00              4 srvsvc                                                               
+------        31/12/1600     22:00              1 mysqld3988_pipe                                                      
+
+
+    Diretório: \\.\pipe\Winsock2
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 Winsock2\CatalogChangeListener-44c-0                                 
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              3 SmartAllocSrv_1                                                      
+
+
+    Diretório: \\.\pipe\PIPE_EVENTROOT
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 PIPE_EVENTROOT\CIMV2SCM EVENT PROVIDER                               
+
+
+    Diretório: \\.\pipe\Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-1718213290-751554359-35415923
+    44-2312209569-3374928651
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.7292.8708.766
+                                                  4444475362732373                                                     
+------        31/12/1600     22:00              2 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\crashpad_8748_XAFQ
+                                                  MCTQBUZKTYFT                                                         
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.9388.113
+                                                  76430703154086157                                                    
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.9388.120
+                                                  98833638292836392                                                    
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.9388.897
+                                                  7667773681979741                                                     
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.9388.488
+                                                  8468830612680051                                                     
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.8608.369
+                                                  277505463642865                                                      
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.4620.9244.166
+                                                  05617551272040421                                                    
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.8608.669
+                                                  933319856514430                                                      
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.8608.208
+                                                  2111104951055361                                                     
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.8608.153
+                                                  95780352536889905                                                    
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.8608.782
+                                                  6799348181421918                                                     
+------        31/12/1600     22:00              1 Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-171
+                                                  8213290-751554359-3541592344-2312209569-3374928651\mojo.8748.8608.147
+                                                  70325888435205556                                                    
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              2 crashpad_11040_HUQTELMOYGMDNRFO                                      
+
+
+    Diretório: \\.\pipe\LOCAL
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.6104.15360855734781523242                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.6104.3594183428145570052                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.6104.17735803093921724388                           
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              2 crashpad_10116_XJGCZSFCIQTJNPEN                                      
+
+
+    Diretório: \\.\pipe\LOCAL
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 LOCAL\mojo.10116.11412.16999069129348546202                          
+------        31/12/1600     22:00              1 LOCAL\mojo.10116.11412.1391393226118193378                           
+
+
+    Diretório: \\.\pipe\uv
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 uv\18446744073709551615-10116                                        
+------        31/12/1600     22:00              1 uv\0-10116                                                           
+------        31/12/1600     22:00              1 uv\1-10116                                                           
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              5 codex-ipc                                                            
+
+
+    Diretório: \\.\pipe\LOCAL
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 LOCAL\mojo.10116.11412.10051185700463516875                          
+------        31/12/1600     22:00              1 LOCAL\mojo.10116.7408.8359278786447824342                            
+------        31/12/1600     22:00              1 LOCAL\mojo.12188.12192.4066179938085848050                           
+------        31/12/1600     22:00              1 LOCAL\mojo.10116.7408.4776351974358790102                            
+------        31/12/1600     22:00              1 LOCAL\mojo.10116.7408.6663182347980302248                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.6104.1619276311987274263                            
+------        31/12/1600     22:00              1 LOCAL\mojo.12576.12580.4770479643819326830                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.9766108386633141754                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.13345793909537781875                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.10360516344860710495                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.16955956711159892362                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.106069454727506423                             
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.6104.17134083844609545329                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.6104.15439868544216607125                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.9048091979460342833                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.8033446928861288195                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.6104.18324447551637459148                           
+------        31/12/1600     22:00              1 LOCAL\mojo.10172.5000.1313496279953717768                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.10886898278062686089                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.14002555918310666057                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.14110008418337040069                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.3757468761586977205                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.10306144367637843684                           
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 a52bc8fd-6581-47d5-a3ac-1d1d146e76f                                  
+------        31/12/1600     22:00              4 MsFteWds                                                             
+
+
+    Diretório: \\.\pipe\pipe\LOCAL
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 pipe\LOCAL\Monitorian                                                
+
+
+    Diretório: \\.\pipe\codex-browser-use
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              4 codex-browser-use\4a38b779-832f-4fec-a16c-a85e028e738f               
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 PSHost.134217983865055483.1540.DefaultAppDomain.powershell           
+------        31/12/1600     22:00              1 CPFATP_14200_v4.0.30319                                              
+
+
+    Diretório: \\.\pipe\SQLLocal
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00             92 SQLLocal\MSSQLSERVER                                                 
+
+
+    Diretório: \\.\pipe\sql
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              2 sql\query                                                            
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              3 sqlsatellitelaunch                                                   
+
+
+    Diretório: \\.\pipe\msfte
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 msfte\MSSQL17.MSSQLSERVERAcbfa67f9f8960f4ec5f9fccf573491a0750a8ik0FTE
+                                                  toFDAdmin                                                            
+------        31/12/1600     22:00              1 msfte\MSSQL17.MSSQLSERVERAcbfa67f9f8960f4ec5f9fccf573491a0750a8ik0FDR
+                                                  eq                                                                   
+------        31/12/1600     22:00              1 msfte\MSSQL17.MSSQLSERVERAcbfa67f9f8960f4ec5f9fccf573491a0750a8ik0CBS
+                                                  tatus                                                                
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 AppContracts_x1F56DE93-C417-4FDF-8FC5-0A52FB45443Ay                  
+
+
+    Diretório: \\.\pipe\LOCAL
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.6104.1347613339818306461                            
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 PSHost.134217989334789698.14376.DefaultAppDomain.powershell          
+
+
+    Diretório: \\.\pipe\LOCAL
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.211842872833219211                             
+------        31/12/1600     22:00              1 LOCAL\mojo.14400.7212.3310248936597852268                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.6104.6641600661273049495                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.16907963583721651233                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.3973245302901458804                            
+------        31/12/1600     22:00              1 LOCAL\mojo.6320.1140.1673384399022418378                             
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.10686789308852546085                           
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.5853681288938175532                            
+------        31/12/1600     22:00              1 LOCAL\mojo.11040.7584.4347462543057583313                            
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 chrome.sync.13160.13164.2532457523                                   
+------        31/12/1600     22:00              1 32B6B37A-4A7D-4e00-95F2-6F0BF3DE3E005569748thsnYaVieBoda             
+------        31/12/1600     22:00             38 dockerBackendApiServer                                               
+------        31/12/1600     22:00              2 dockerEthernetVpnkit                                                 
+------        31/12/1600     22:00              2 dockerControlInit                                                    
+------        31/12/1600     22:00             13 docker_engine                                                        
+------        31/12/1600     22:00              2 dockerDesktopEngine                                                  
+------        31/12/1600     22:00              3 dockerDesktopLinuxEngine                                             
+------        31/12/1600     22:00              2 dockerDesktopWindowsEngine                                           
+------        31/12/1600     22:00              2 docker_cli                                                           
+------        31/12/1600     22:00              3 dockerHTTPProxy                                                      
+------        31/12/1600     22:00              2 dockerEthernet                                                       
+------        31/12/1600     22:00              2 dockerEthernetQemu                                                   
+------        31/12/1600     22:00              3 dockerVolumeContents                                                 
+------        31/12/1600     22:00              2 dockerStats                                                          
+------        31/12/1600     22:00              6 docker_engine_linux                                                  
+------        31/12/1600     22:00              3 dockerDiagnosticd                                                    
+------        31/12/1600     22:00              3 dockerDnsForwarder                                                   
+------        31/12/1600     22:00              2 dockerFilesystemEvent                                                
+------        31/12/1600     22:00             14 dockerWsl2BootstrapExposePorts                                       
+------        31/12/1600     22:00              2 dockerWSLCrossDistroService                                          
+------        31/12/1600     22:00              2 dockerAPIProxyControl                                                
+------        31/12/1600     22:00              2 dockerContainerFilesystem                                            
+------        31/12/1600     22:00              2 imageInspector                                                       
+------        31/12/1600     22:00              2 dockerDebugSocketforwarder                                           
+------        31/12/1600     22:00              2 dockerPerfSocketforwarder                                            
+------        31/12/1600     22:00              2 dockerMutagenConduit                                                 
+------        31/12/1600     22:00              5 dockerExtensionManagerAPI                                            
+------        31/12/1600     22:00              2 dockerModulesManagerAPI                                              
+------        31/12/1600     22:00              2 dockerTools                                                          
+------        31/12/1600     22:00              2 dockerWindowsAPIProxyControl                                         
+------        31/12/1600     22:00              2 dockerDesktopBuildServer                                             
+------        31/12/1600     22:00              2 docker_sandboxes_sandboxd                                            
+
+
+    Diretório: \\.\pipe\LOCAL
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 LOCAL\mojo.8396.6044.341691638774567704                              
+------        31/12/1600     22:00              1 LOCAL\mojo.8396.6044.4164725265905230861                             
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              2 dockerAgent                                                          
+------        31/12/1600     22:00              2 dockerVolume                                                         
+
+
+    Diretório: \\.\pipe\LOCAL
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 LOCAL\mojo.8396.6044.8697882604785748726                             
+------        31/12/1600     22:00              1 LOCAL\mojo.8396.7736.16624969169621057916                            
+------        31/12/1600     22:00              1 LOCAL\mojo.5484.10504.8933257465339631969                            
+------        31/12/1600     22:00              1 LOCAL\mojo.8396.7736.6840215958679414694                             
+------        31/12/1600     22:00              1 LOCAL\mojo.8396.7736.8681082135786753365                             
+
+
+    Diretório: \\.\pipe
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        31/12/1600     22:00              1 PSHost.134217992831734409.15816.DefaultAppDomain.powershell          
+------        31/12/1600     22:00              1 PSHost.134217992992211323.14588.DefaultAppDomain.powershell          
+------        31/12/1600     22:00              1 PSHost.134217993014967673.12112.DefaultAppDomain.powershell          
+------        31/12/1600     22:00              1 PSHost.134217993028233616.14256.DefaultAppDomain.powershell          
+
+

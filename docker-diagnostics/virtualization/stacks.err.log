@@ -1,0 +1,1 @@
+Unable to list goroutine stacks: Get "http://ipc/goroutines/stacks": open \\.\pipe\dockerVirtualization: The system cannot find the file specified.

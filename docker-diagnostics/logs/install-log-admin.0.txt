@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------->8
+Version: 4.66.1 (222799)
+Sha1: 
+Started on: 2026/03/27 15:30:43.597
+Resources: <HOME>\AppData\Local\Temp\DockerDesktopInstallers\1774625436176998600\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 26200
+BuildLabName: 26100.1.amd64fre.ge_release.240331-1435
+File: C:\ProgramData\DockerDesktop\install-log-admin.txt
+CommandLine: "C:\Users\USURIO~2\AppData\Local\Temp\DockerDesktopInstallers\1774625436176998600\Docker Desktop Installer.exe" "install" -package "C:\Users\USURIO~2\AppData\Local\Temp\DockerDesktopInstallers\1774625436230172600\DockerDesktop.d4w" --relaunch-as-admin
+You can send feedback, including this log file, at https://dockr.ly/desktop-feedback
+[2026-03-27T15:30:43.775262200Z][Installer][I] No installation found
+[2026-03-27T15:30:43.983411700Z][AdminInstallHandler][I] Running admin installation
+[2026-03-27T15:30:44.276419300Z][InstallWorkflow][I] Using package: C:\Users\USURIO~2\AppData\Local\Temp\DockerDesktopInstallers\1774625436230172600\DockerDesktop.d4w
+[2026-03-27T15:30:44.393375100Z][InstallWorkflow][I] Extracting manifest
+[2026-03-27T15:30:47.611860400Z][InstallWorkflow][I] Manifest found: version=222799, displayVersion=4.66.1
+[2026-03-27T15:30:47.613366600Z][InstallWorkflow][I] Checking prerequisites
+[2026-03-27T15:30:48.374125600Z][InstallWorkflow][I] Prompting for optional features
+[2026-03-27T15:31:15.149307800Z][InstallWorkflow][I] Selected backend mode: wsl-2
+[2026-03-27T15:31:15.159533300Z][DeployArtifacts][I] Unpacking files to C:\Program Files\Docker\Docker
+[2026-03-27T15:34:31.931698200Z][InstallWorkflow][I] Deploying component Docker.Installer.CreateGroupAction
+[2026-03-27T15:34:32.075376400Z][InstallWorkflow][I] Deploying component Docker.Installer.AddToGroupAction
+[2026-03-27T15:34:32.104556700Z][InstallWorkflow][I] Deploying component Docker.Installer.EnableFeaturesAction
+[2026-03-27T15:34:32.105559800Z][InstallWorkflow-EnableFeaturesAction][I] Required features: VirtualMachinePlatform, Microsoft-Windows-Subsystem-Linux
+[2026-03-27T15:35:05.317365200Z][InstallWorkflow-EnableFeaturesAction][I] Enabled Windows features that require computer restart: VirtualMachinePlatform, Microsoft-Windows-Subsystem-Linux
+[2026-03-27T15:35:05.317365200Z][InstallWorkflow][I] Deploying component Docker.Installer.ServiceAction
+[2026-03-27T15:35:05.320844800Z][InstallWorkflow-ServiceAction][I] Removing service
+[2026-03-27T15:35:05.322850800Z][InstallWorkflow-ServiceAction][I] Creating service
+[2026-03-27T15:35:05.326926400Z][InstallWorkflow][I] Deploying component Docker.Installer.ShortcutAction
+[2026-03-27T15:35:05.352372200Z][InstallWorkflow-ShortcutAction][I] Creating shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Docker Desktop.lnk/Docker Desktop
+[2026-03-27T15:35:05.400558400Z][InstallWorkflow][I] Deploying component Docker.Installer.AutoStartAction
+[2026-03-27T15:35:05.404716400Z][InstallWorkflow][I] Deploying component Docker.Installer.PathAction
+[2026-03-27T15:35:05.453752500Z][InstallWorkflow][I] Deploying component Docker.Installer.ExecAction
+[2026-03-27T15:35:05.458768000Z][InstallWorkflow-ExecAction][I] Running: C:\Program Files\Docker\Docker\InstallerCli.exe -i with timeout=-1
+[2026-03-27T15:35:36.539667200Z][InstallWorkflow][I] Registering product
+[2026-03-27T15:35:36.541790900Z][RegisterProductStep][I] Registering product information
+[2026-03-27T15:35:36.556496000Z][RegisterProductStep][I] Registering docker-desktop url-protocol
+[2026-03-27T15:35:36.562463600Z][InstallWorkflow][I] Installation succeeded

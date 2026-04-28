@@ -1,0 +1,1 @@
+wsl.exe --system bash -c for dev in /sys/block/sd*; do echo -n "\${dev} "; cat \${dev}/device/wwid ; done

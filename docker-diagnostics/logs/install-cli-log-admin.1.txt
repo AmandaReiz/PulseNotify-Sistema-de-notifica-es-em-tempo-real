@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------->8
+Version: 4.71.0 (225177)
+Sha1: 
+Started on: 2026/04/27 12:59:50.618
+Resources: C:\Program Files\Docker\Docker.staging\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 26200
+BuildLabName: 26100.1.amd64fre.ge_release.240331-1435
+File: C:\ProgramData\DockerDesktop\install-cli-log-admin.txt
+CommandLine: "C:\Program Files\Docker\Docker.staging\InstallerCli.exe" -k -p
+You can send feedback, including this log file, at https://dockr.ly/desktop-feedback
+[2026-04-27T12:59:50.796966300Z][Installer][I] Killing processes...
+[2026-04-27T12:59:50.846931200Z][Installer][I] Killing existing com.docker.backend process with PID 9788
+[2026-04-27T12:59:50.874284200Z][Installer][I] Killing existing com.docker.backend process with PID 7444
+[2026-04-27T12:59:50.895079800Z][Installer][I] Killing existing Docker Desktop process with PID 11400
+[2026-04-27T12:59:50.904109500Z][Installer][I] Killing existing Docker Desktop process with PID 11392
+[2026-04-27T12:59:51.108949000Z][Installer][I] Killing existing Docker Desktop process with PID 12200
+[2026-04-27T12:59:51.142055400Z][Installer][I] Killing existing Docker Desktop process with PID 10808
+[2026-04-27T12:59:51.263191700Z][Installer][I] Killing existing com.docker.build process with PID 10876
+[2026-04-27T12:59:51.316578000Z][Installer][I] Killing existing docker-agent process with PID 11912
+[2026-04-27T12:59:51.372372500Z][Installer][I] Killing existing docker-sandbox process with PID 11252
+[2026-04-27T12:59:51.385264900Z][Installer][I] Removing Windows daemon service
+[2026-04-27T12:59:51.708586200Z][Installer][I] Service docker not found, skipping unregistration
+[2026-04-27T12:59:51.708586200Z][Installer][I] Service containerd not found, skipping unregistration
+[2026-04-27T12:59:51.709974800Z][Installer][I] Service buildkitd not found, skipping unregistration
+[2026-04-27T12:59:51.710980200Z][Installer][I] Preparing...
+[2026-04-27T12:59:51.799964600Z][HyperVManager][I] Destroy
+[2026-04-27T12:59:52.019035200Z][HyperVInfrastructure][I] No DockerDesktopVM VM found
+[2026-04-27T12:59:52.022127400Z][Installer][I] Distro docker-desktop not registered, skipping unregister
+[2026-04-27T12:59:52.022127400Z][Installer][I] Prepare completed successfully
+[2026-04-27T12:59:52.022597300Z][Installer][I] Recreating Docker CLI plugins directory
+[2026-04-27T12:59:52.023873400Z][Installer][I] Deleting directory C:\Program Files\Docker\cli-plugins
+[2026-04-27T12:59:52.056025400Z][Installer][I] Granting ReadAndExecute on C:\Program Files\Docker\cli-plugins
+[2026-04-27T12:59:52.069986700Z][Installer][I] Setting permissions
+[2026-04-27T12:59:52.075036000Z][Installer][I] Granting ReadAndExecute on C:\ProgramData\DockerDesktop
+[2026-04-27T12:59:52.076048400Z][Installer][I] Permissions updated

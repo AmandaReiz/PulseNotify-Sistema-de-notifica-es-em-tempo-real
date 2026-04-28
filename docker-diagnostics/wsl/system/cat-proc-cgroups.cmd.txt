@@ -1,0 +1,1 @@
+wsl.exe --system cat /proc/cgroups

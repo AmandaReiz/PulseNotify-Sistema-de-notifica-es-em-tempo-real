@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ Get-CimInstance Win32_ComputerSystem | Select-Object -ExcludeProperty Cim*, OemLogoBitMap -Property *| ConvertTo-Json }

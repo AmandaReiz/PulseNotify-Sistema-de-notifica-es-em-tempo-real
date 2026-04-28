@@ -1,0 +1,1 @@
+docker ps -a -flabel=io.kubernetes.pod.namespace=kube-system
