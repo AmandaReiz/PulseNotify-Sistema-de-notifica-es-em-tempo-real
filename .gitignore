@@ -1,0 +1,6 @@
+backend/target/
+frontend/dist/
+frontend/node_modules/
+frontend/.vercel/
+docker-diagnostics/
+*.log
