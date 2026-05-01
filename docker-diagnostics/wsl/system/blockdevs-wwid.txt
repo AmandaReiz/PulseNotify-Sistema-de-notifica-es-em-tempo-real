@@ -1,5 +1,0 @@
-/sys/block/sda naa.60022480728b63b9f0b8d5e28f1d4859
-/sys/block/sdb naa.600224805b5ac507b80a045bc3303ae1
-/sys/block/sdc naa.6002248066bd88d130a1b124325f1d8c
-/sys/block/sdd naa.60022480cb42da1c1de597040b157160
-/sys/block/sde naa.60022480d90a8b2b8d413c7d8b516083

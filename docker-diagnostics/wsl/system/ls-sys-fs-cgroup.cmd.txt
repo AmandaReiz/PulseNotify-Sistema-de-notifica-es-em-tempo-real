@@ -1,1 +1,0 @@
-wsl.exe --system ls -lR /sys/fs/cgroup

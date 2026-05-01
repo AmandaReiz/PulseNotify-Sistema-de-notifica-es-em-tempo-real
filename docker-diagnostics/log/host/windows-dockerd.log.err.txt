@@ -1,7 +1,0 @@
-Get-EventLog : Nenhuma correspondência encontrada
-No linha:1 caractere:4
-+ &{ Get-EventLog -LogName Application -Source docker | ConvertTo-Csv }
-+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (:) [Get-EventLog], ArgumentException
-    + FullyQualifiedErrorId : GetEventLogNoEntriesFound,Microsoft.PowerShell.Commands.GetEventLogCommand
- 

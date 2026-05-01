@@ -1,8 +1,0 @@
-Get-VMSwitch : Você não tem a permissão necessária para concluir esta tarefa. Contate o administrador da política de 
-autorização do computador '<HOST>'.
-No linha:1 caractere:27
-+ &{ Import-Module Hyper-V; Get-VMSwitch -ComputerName . | FL * }
-+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (:) [Get-VMSwitch], VirtualizationException
-    + FullyQualifiedErrorId : Unspecified,Microsoft.HyperV.PowerShell.Commands.GetVMSwitch
- 

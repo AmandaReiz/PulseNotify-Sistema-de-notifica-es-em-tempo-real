@@ -1,4 +1,0 @@
-[boot]
-command=/usr/bin/WSLGd
-[user]
-default=wslg

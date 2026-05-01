@@ -1,7 +1,0 @@
-
-DeviceID DriveType ProviderName VolumeName Size          FreeSpace   
--------- --------- ------------ ---------- ----          ---------   
-C:       3                                 255144751104  79644352512 
-D:       3                      HD 1Tb     1000186310656 638547218432
-
-

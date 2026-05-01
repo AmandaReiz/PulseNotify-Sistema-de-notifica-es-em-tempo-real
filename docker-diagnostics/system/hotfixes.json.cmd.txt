@@ -1,1 +1,0 @@
-powershell -NoProfile -Command &{ Get-Hotfix | Select-Object -Property PSComputerName,Description,HotFixID,InstalledBy,@{Name='InstalledOn'; Expression={$_.InstalledOn.DateTime}} | ConvertTo-Json }

@@ -1,1 +1,0 @@
-hnsdiag list all

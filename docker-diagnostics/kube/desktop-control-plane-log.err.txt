@@ -1,1 +1,0 @@
-docker logs -t -n10000 desktop-control-plane (timeout 10s) -> context deadline exceeded

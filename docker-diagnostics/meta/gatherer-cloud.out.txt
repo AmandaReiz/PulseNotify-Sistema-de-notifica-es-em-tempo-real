@@ -1,1 +1,0 @@
-{"files":[{"prefix":"log/host/cloud","name":"C:\\Users\\Usuário\\.docker\\cloud\\error.log"},{"prefix":"log/host/cloud","name":"C:\\Users\\Usuário\\.docker\\cloud\\state.json"}],"directories":[{"prefix":"log/host/cloud","root":"C:\\Users\\Usuário\\.docker\\cloud\\logs"}]}
