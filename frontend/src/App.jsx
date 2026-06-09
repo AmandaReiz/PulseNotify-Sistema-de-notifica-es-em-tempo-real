@@ -19,9 +19,12 @@ import {
 } from 'lucide-react'
 import './App.css'
 
-const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8080'
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  'https://pulsenotify-sistema-de-notifica-es-em-843h.onrender.com'
 const WS_URL =
-  import.meta.env.VITE_WS_URL ?? 'ws://localhost:8080/ws/notifications'
+  import.meta.env.VITE_WS_URL ||
+  'wss://pulsenotify-sistema-de-notifica-es-em-843h.onrender.com/ws/notifications'
 
 const eventTypes = [
   {
@@ -93,6 +96,9 @@ const iconByType = {
 }
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const [credentials, setCredentials] = useState({ username: '', password: '' })
+  const [loginError, setLoginError] = useState('')
   const [notifications, setNotifications] = useState(initialNotifications)
   const [selected, setSelected] = useState('Marina')
   const [connection, setConnection] = useState('Conectando')
@@ -228,6 +234,92 @@ function App() {
     if (sent) {
       setCustomMessage('')
     }
+  }
+
+  function handleLogin(event) {
+    event.preventDefault()
+
+    const username = credentials.username.trim()
+    const password = credentials.password.trim()
+
+    if (username === 'admin' && password === 'admin') {
+      setIsAuthenticated(true)
+      setLoginError('')
+      return
+    }
+
+    setLoginError('Use admin no login e admin na senha para acessar a demo.')
+  }
+
+  if (!isAuthenticated) {
+    return (
+      <main className="login-shell">
+        <section className="login-card" aria-labelledby="login-title">
+          <div className="brand login-brand">
+            <div className="brand-mark">
+              <Bell size={22} />
+            </div>
+            <div>
+              <strong>PulseNotify</strong>
+              <span>Dashboard em tempo real</span>
+            </div>
+          </div>
+
+          <div>
+            <p className="eyebrow">Acesso demo</p>
+            <h1 id="login-title">Entre no painel operacional</h1>
+            <p className="login-copy">
+              Use as credenciais de demonstração para visualizar o fluxo de notificações,
+              WebSocket e integração com a API online.
+            </p>
+          </div>
+
+          <form className="login-form" onSubmit={handleLogin}>
+            <label htmlFor="username">Login</label>
+            <input
+              autoComplete="username"
+              autoFocus
+              id="username"
+              onChange={(event) =>
+                setCredentials((current) => ({
+                  ...current,
+                  username: event.target.value,
+                }))
+              }
+              placeholder="admin"
+              value={credentials.username}
+            />
+
+            <label htmlFor="password">Senha</label>
+            <input
+              autoComplete="current-password"
+              id="password"
+              onChange={(event) =>
+                setCredentials((current) => ({
+                  ...current,
+                  password: event.target.value,
+                }))
+              }
+              placeholder="admin"
+              type="password"
+              value={credentials.password}
+            />
+
+            {loginError && <p className="login-error">{loginError}</p>}
+
+            <button type="submit">
+              <ShieldCheck size={18} />
+              <span>Entrar</span>
+            </button>
+          </form>
+
+          <div className="login-hint">
+            <span>Login: admin</span>
+            <span>Senha: admin</span>
+          </div>
+        </section>
+      </main>
+    )
   }
 
   return (
